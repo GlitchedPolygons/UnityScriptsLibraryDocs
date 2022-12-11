@@ -133,7 +133,7 @@ All damage receiving entities who are subscribed to the <a class="xref" href="Gl
       <tr>
         <td><span class="xref">RaycastHit</span></td>
         <td><span class="parametername">bulletHit</span></td>
-        <td><p>If the <a class="xref" href="GlitchedPolygons.Damage.DamageType.html">DamageType</a> is <a class="xref" href="GlitchedPolygons.Damage.DamageType.html#GlitchedPolygons_Damage_DamageType_Bullet">Bullet</a>, then pass in the bullet's <see cref="!:RaycastHit"></see>.<p> </p>If a <see cref="!:RaycastHit"></see> doesn't make sense with the specified <a class="xref" href="GlitchedPolygons.Damage.DamageType.html">DamageType</a>, then pass <code>default(RaycastHit)</code> as a parameter.</p>
+        <td><p>If the <a class="xref" href="GlitchedPolygons.Damage.DamageType.html">DamageType</a> is <a class="xref" href="GlitchedPolygons.Damage.DamageType.html#GlitchedPolygons_Damage_DamageType_Bullet">Bullet</a>, then pass in the bullet's <a href="https://docs.unity3d.com/ScriptReference/RaycastHit.html">RaycastHit</a>.<p> </p>If a <a href="https://docs.unity3d.com/ScriptReference/RaycastHit.html">RaycastHit</a> doesn't make sense with the specified <a class="xref" href="GlitchedPolygons.Damage.DamageType.html">DamageType</a>, then pass <code>default(RaycastHit)</code> as a parameter.</p>
 </td>
       </tr>
     </tbody>
@@ -183,7 +183,7 @@ All damage receiving entities who are subscribed to the <a class="xref" href="Gl
   </span>
   <h4 id="GlitchedPolygons_Damage_Damageable_Damaged" data-uid="GlitchedPolygons.Damage.Damageable.Damaged">Damaged</h4>
   <div class="markdown level1 summary"><p>This event is raised when <a class="xref" href="GlitchedPolygons.Damage.Damageable.html#GlitchedPolygons_Damage_Damageable_ApplyDamage_System_Single_GlitchedPolygons_Damage_DamageType_RaycastHit_">ApplyDamage(Single, DamageType, RaycastHit)</a> is called.<p> </p>
-Subscribe any interested damage receivers to this event. Damage amount, type and eventual bullet <see cref="!:RaycastHit"></see> are passed as event arguments (<a class="xref" href="GlitchedPolygons.Damage.Damage.html">Damage</a>).<p> </p></p>
+Subscribe any interested damage receivers to this event. Damage amount, type and eventual bullet <a href="https://docs.unity3d.com/ScriptReference/RaycastHit.html">RaycastHit</a> are passed as event arguments (<a class="xref" href="GlitchedPolygons.Damage.Damage.html">Damage</a>).<p> </p></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

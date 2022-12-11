@@ -124,7 +124,8 @@ This <a class="xref" href="GlitchedPolygons.Input.InputDevice.html">InputDevice<
   </span>
   <a id="GlitchedPolygons_Input_KeyboardAndMouse_GetAxis_" data-uid="GlitchedPolygons.Input.KeyboardAndMouse.GetAxis*"></a>
   <h4 id="GlitchedPolygons_Input_KeyboardAndMouse_GetAxis_System_Int32_" data-uid="GlitchedPolygons.Input.KeyboardAndMouse.GetAxis(System.Int32)">GetAxis(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the current value of a game axis.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -143,7 +144,8 @@ This <a class="xref" href="GlitchedPolygons.Input.InputDevice.html">InputDevice<
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">axisIndex</span></td>
-        <td></td>
+        <td><p>The axis to query (its integer index).</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -158,7 +160,8 @@ This <a class="xref" href="GlitchedPolygons.Input.InputDevice.html">InputDevice<
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
-        <td></td>
+        <td><p>The current value of the game axis (usually this number is [-1;1] )</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -223,7 +226,7 @@ This <a class="xref" href="GlitchedPolygons.Input.InputDevice.html">InputDevice<
   </span>
   <a id="GlitchedPolygons_Input_KeyboardAndMouse_GetButtonKeys_" data-uid="GlitchedPolygons.Input.KeyboardAndMouse.GetButtonKeys*"></a>
   <h4 id="GlitchedPolygons_Input_KeyboardAndMouse_GetButtonKeys_System_Int32_" data-uid="GlitchedPolygons.Input.KeyboardAndMouse.GetButtonKeys(System.Int32)">GetButtonKeys(Int32)</h4>
-  <div class="markdown level1 summary"><p>Returns a button's currently assigned <see cref="!:KeyCode"></see>s.</p>
+  <div class="markdown level1 summary"><p>Returns a button's currently assigned <span class="xref">KeyCode</span>s.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -243,7 +246,7 @@ This <a class="xref" href="GlitchedPolygons.Input.InputDevice.html">InputDevice<
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">buttonIndex</span></td>
-        <td><p>The button whose mapped <see cref="!:KeyCode"></see>s you want to retrieve.</p>
+        <td><p>The button whose mapped <a href="https://docs.unity3d.com/ScriptReference/KeyCode.html">KeyCode</a>s you want to retrieve.</p>
 </td>
       </tr>
     </tbody>
@@ -259,7 +262,7 @@ This <a class="xref" href="GlitchedPolygons.Input.InputDevice.html">InputDevice<
     <tbody>
       <tr>
         <td><span class="xref">KeyCode</span>[]</td>
-        <td><p>The button's assigned <see cref="!:KeyCode"></see>s.</p>
+        <td><p>The button's assigned <a href="https://docs.unity3d.com/ScriptReference/KeyCode.html">KeyCode</a>s.</p>
 </td>
       </tr>
     </tbody>
@@ -353,7 +356,7 @@ This <a class="xref" href="GlitchedPolygons.Input.InputDevice.html">InputDevice<
   </span>
   <a id="GlitchedPolygons_Input_KeyboardAndMouse_ReassignButton_" data-uid="GlitchedPolygons.Input.KeyboardAndMouse.ReassignButton*"></a>
   <h4 id="GlitchedPolygons_Input_KeyboardAndMouse_ReassignButton_System_Int32_KeyCode___" data-uid="GlitchedPolygons.Input.KeyboardAndMouse.ReassignButton(System.Int32,KeyCode[])">ReassignButton(Int32, KeyCode[])</h4>
-  <div class="markdown level1 summary"><p>Reassign a button's <see cref="!:KeyCode"></see>s.</p>
+  <div class="markdown level1 summary"><p>Reassign a button's <a href="https://docs.unity3d.com/ScriptReference/KeyCode.html">KeyCode</a>s.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -379,7 +382,7 @@ This <a class="xref" href="GlitchedPolygons.Input.InputDevice.html">InputDevice<
       <tr>
         <td><span class="xref">KeyCode</span>[]</td>
         <td><span class="parametername">newKeys</span></td>
-        <td><p>The new <see cref="!:KeyCode"></see>s to remap the button to.</p>
+        <td><p>The new <a href="https://docs.unity3d.com/ScriptReference/KeyCode.html">KeyCode</a>s to remap the button to.</p>
 </td>
       </tr>
     </tbody>
@@ -394,7 +397,9 @@ This <a class="xref" href="GlitchedPolygons.Input.InputDevice.html">InputDevice<
     <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Input/Devices/KeyboardAndMouse.cs/#L40">View Source</a>
   </span>
   <h4 id="GlitchedPolygons_Input_KeyboardAndMouse_ButtonPressed" data-uid="GlitchedPolygons.Input.KeyboardAndMouse.ButtonPressed">ButtonPressed</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>This event is raised in the frame where the player presses a button.<p> </p>
+Which button was pressed is passed as int argument.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -425,7 +430,9 @@ This <a class="xref" href="GlitchedPolygons.Input.InputDevice.html">InputDevice<
     <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Input/Devices/KeyboardAndMouse.cs/#L42">View Source</a>
   </span>
   <h4 id="GlitchedPolygons_Input_KeyboardAndMouse_ButtonReleased" data-uid="GlitchedPolygons.Input.KeyboardAndMouse.ButtonReleased">ButtonReleased</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>This event is invoked the frame when the user lets go of a button.<p> </p>
+Which button was released is passed as int argument.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

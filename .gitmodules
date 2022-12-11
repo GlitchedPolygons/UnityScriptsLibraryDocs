@@ -1,0 +1,3 @@
+[submodule "docfx_project/src/code"]
+	path = docfx_project/src/code
+	url = https://github.com/GlitchedPolygons/UnityScriptsLibrary.git

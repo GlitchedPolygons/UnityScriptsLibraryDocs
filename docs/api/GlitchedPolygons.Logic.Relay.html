@@ -1,0 +1,467 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Relay
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Relay
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GlitchedPolygons.Logic.Relay">
+  
+  
+  <h1 id="GlitchedPolygons_Logic_Relay" data-uid="GlitchedPolygons.Logic.Relay" class="text-break">Class Relay
+  </h1>
+  <div class="markdown level0 summary"><p>Logic relay that can be fired with or without a delay.<p> </p>
+When fired, a relay will invoke all of its registered actions at once.<p> </p>
+You can decide what happens on fire by subscribing/unsubscribing
+listeners to the <a class="xref" href="GlitchedPolygons.Logic.Relay.html#GlitchedPolygons_Logic_Relay_Fired">Fired</a> event (via <a class="xref" href="GlitchedPolygons.Logic.Relay.html#GlitchedPolygons_Logic_Relay_AddListener_System_Action_">AddListener(Action)</a> and <a class="xref" href="GlitchedPolygons.Logic.Relay.html#GlitchedPolygons_Logic_Relay_RemoveListener_System_Action_">RemoveListener(Action)</a>) or
+by hooking the events up directly in the <a class="xref" href="GlitchedPolygons.Logic.Relay.html">Relay</a>'s inspector.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Relay</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GlitchedPolygons.Logic.html">GlitchedPolygons.Logic</a></h6>
+  <h6><strong>Assembly</strong>: UnityScriptsLibrary.dll</h6>
+  <h5 id="GlitchedPolygons_Logic_Relay_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Relay : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_Logic_Relay_AddListener_System_Action_.md&amp;value=---%0Auid%3A%20GlitchedPolygons.Logic.Relay.AddListener(System.Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Logic/Relay.cs/#L156">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_Logic_Relay_AddListener_" data-uid="GlitchedPolygons.Logic.Relay.AddListener*"></a>
+  <h4 id="GlitchedPolygons_Logic_Relay_AddListener_System_Action_" data-uid="GlitchedPolygons.Logic.Relay.AddListener(System.Action)">AddListener(Action)</h4>
+  <div class="markdown level1 summary"><p>Adds a listener to this <a class="xref" href="GlitchedPolygons.Logic.Relay.html">Relay</a> that will be invoked every time the <a class="xref" href="GlitchedPolygons.Logic.Relay.html#GlitchedPolygons_Logic_Relay_Fired">Fired</a> event is raised.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddListener(Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The <span class="xref">System.Action</span> to add to the <a class="xref" href="GlitchedPolygons.Logic.Relay.html">Relay</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the <span class="xref">System.Action</span> could be added successfully to the <a class="xref" href="GlitchedPolygons.Logic.Relay.html">Relay</a> or not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_Logic_Relay_CancelPendingInvocations.md&amp;value=---%0Auid%3A%20GlitchedPolygons.Logic.Relay.CancelPendingInvocations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Logic/Relay.cs/#L109">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_Logic_Relay_CancelPendingInvocations_" data-uid="GlitchedPolygons.Logic.Relay.CancelPendingInvocations*"></a>
+  <h4 id="GlitchedPolygons_Logic_Relay_CancelPendingInvocations" data-uid="GlitchedPolygons.Logic.Relay.CancelPendingInvocations">CancelPendingInvocations()</h4>
+  <div class="markdown level1 summary"><p>Cancels all pending invocations on this <a class="xref" href="GlitchedPolygons.Logic.Relay.html">Relay</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CancelPendingInvocations()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_Logic_Relay_ClearAllListeners.md&amp;value=---%0Auid%3A%20GlitchedPolygons.Logic.Relay.ClearAllListeners%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Logic/Relay.cs/#L196">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_Logic_Relay_ClearAllListeners_" data-uid="GlitchedPolygons.Logic.Relay.ClearAllListeners*"></a>
+  <h4 id="GlitchedPolygons_Logic_Relay_ClearAllListeners" data-uid="GlitchedPolygons.Logic.Relay.ClearAllListeners">ClearAllListeners()</h4>
+  <div class="markdown level1 summary"><p>Clears all listeners by unsubscribing them from the <a class="xref" href="GlitchedPolygons.Logic.Relay.html#GlitchedPolygons_Logic_Relay_Fired">Fired</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAllListeners()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_Logic_Relay_ContainsListener_System_Action_.md&amp;value=---%0Auid%3A%20GlitchedPolygons.Logic.Relay.ContainsListener(System.Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Logic/Relay.cs/#L141">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_Logic_Relay_ContainsListener_" data-uid="GlitchedPolygons.Logic.Relay.ContainsListener*"></a>
+  <h4 id="GlitchedPolygons_Logic_Relay_ContainsListener_System_Action_" data-uid="GlitchedPolygons.Logic.Relay.ContainsListener(System.Action)">ContainsListener(Action)</h4>
+  <div class="markdown level1 summary"><p>Checks whether the specified <span class="xref">System.Action</span> is a registered listener or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsListener(Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the <a class="xref" href="GlitchedPolygons.Logic.Relay.html">Relay</a> contains the specified listener; false if not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_Logic_Relay_Fire.md&amp;value=---%0Auid%3A%20GlitchedPolygons.Logic.Relay.Fire%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Logic/Relay.cs/#L94">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_Logic_Relay_Fire_" data-uid="GlitchedPolygons.Logic.Relay.Fire*"></a>
+  <h4 id="GlitchedPolygons_Logic_Relay_Fire" data-uid="GlitchedPolygons.Logic.Relay.Fire">Fire()</h4>
+  <div class="markdown level1 summary"><p>Fires the relay, invoking all registered method calls.<p> </p>
+This waits for <span class="xref">GlitchedPolygons.Logic.Relay.delay</span> seconds and then calls <span class="xref">GlitchedPolygons.Logic.Relay.OnFire</span>, thus triggering the <a class="xref" href="GlitchedPolygons.Logic.Relay.html#GlitchedPolygons_Logic_Relay_Fired">Fired</a> and <span class="xref">GlitchedPolygons.Logic.Relay.onFire</span> events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Fire()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_Logic_Relay_GetDelay.md&amp;value=---%0Auid%3A%20GlitchedPolygons.Logic.Relay.GetDelay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Logic/Relay.cs/#L118">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_Logic_Relay_GetDelay_" data-uid="GlitchedPolygons.Logic.Relay.GetDelay*"></a>
+  <h4 id="GlitchedPolygons_Logic_Relay_GetDelay" data-uid="GlitchedPolygons.Logic.Relay.GetDelay">GetDelay()</h4>
+  <div class="markdown level1 summary"><p>Gets this <a class="xref" href="GlitchedPolygons.Logic.Relay.html">Relay</a>'s current delay value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetDelay()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>The delay in seconds between this <a class="xref" href="GlitchedPolygons.Logic.Relay.html">Relay</a>'s fire and the actual invocation of its registered method calls.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_Logic_Relay_GetListenersCount.md&amp;value=---%0Auid%3A%20GlitchedPolygons.Logic.Relay.GetListenersCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Logic/Relay.cs/#L131">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_Logic_Relay_GetListenersCount_" data-uid="GlitchedPolygons.Logic.Relay.GetListenersCount*"></a>
+  <h4 id="GlitchedPolygons_Logic_Relay_GetListenersCount" data-uid="GlitchedPolygons.Logic.Relay.GetListenersCount">GetListenersCount()</h4>
+  <div class="markdown level1 summary"><p>Gets the amount of registered listeners.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetListenersCount()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The amount of currently registered listeners.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_Logic_Relay_RemoveListener_System_Action_.md&amp;value=---%0Auid%3A%20GlitchedPolygons.Logic.Relay.RemoveListener(System.Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Logic/Relay.cs/#L174">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_Logic_Relay_RemoveListener_" data-uid="GlitchedPolygons.Logic.Relay.RemoveListener*"></a>
+  <h4 id="GlitchedPolygons_Logic_Relay_RemoveListener_System_Action_" data-uid="GlitchedPolygons.Logic.Relay.RemoveListener(System.Action)">RemoveListener(Action)</h4>
+  <div class="markdown level1 summary"><p>Removes a specific listener from this <a class="xref" href="GlitchedPolygons.Logic.Relay.html">Relay</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveListener(Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The <span class="xref">System.Action</span> to remove from the <a class="xref" href="GlitchedPolygons.Logic.Relay.html">Relay</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the <span class="xref">System.Action</span> could be removed successfully from the <a class="xref" href="GlitchedPolygons.Logic.Relay.html">Relay</a> or not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_Logic_Relay_SetDelay_System_Single_.md&amp;value=---%0Auid%3A%20GlitchedPolygons.Logic.Relay.SetDelay(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Logic/Relay.cs/#L125">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_Logic_Relay_SetDelay_" data-uid="GlitchedPolygons.Logic.Relay.SetDelay*"></a>
+  <h4 id="GlitchedPolygons_Logic_Relay_SetDelay_System_Single_" data-uid="GlitchedPolygons.Logic.Relay.SetDelay(System.Single)">SetDelay(Single)</h4>
+  <div class="markdown level1 summary"><p>Sets this <a class="xref" href="GlitchedPolygons.Logic.Relay.html">Relay</a>'s delay value.<p> </p>
+Pending invocations (triggered with the old delay value) won't be affected by this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDelay(float newDelay)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">newDelay</span></td>
+        <td><p>The new delay value in seconds.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_Logic_Relay_Fired.md&amp;value=---%0Auid%3A%20GlitchedPolygons.Logic.Relay.Fired%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Logic/Relay.cs/#L20">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_Logic_Relay_Fired" data-uid="GlitchedPolygons.Logic.Relay.Fired">Fired</h4>
+  <div class="markdown level1 summary"><p>This event is raised whenever the <a class="xref" href="GlitchedPolygons.Logic.Relay.html">Relay</a> has been fired with the <a class="xref" href="GlitchedPolygons.Logic.Relay.html#GlitchedPolygons_Logic_Relay_Fire">Fire()</a> method (after an optional delay).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action Fired</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_Logic_Relay.md&amp;value=---%0Auid%3A%20GlitchedPolygons.Logic.Relay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Logic/Relay.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

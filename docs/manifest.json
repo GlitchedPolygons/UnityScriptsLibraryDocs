@@ -1,0 +1,873 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/git/github.com/UnityScriptsLibraryDocs/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Damage.Damage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Damage.Damage.html",
+          "hash": "3LiCWiSujEL+akAva0TMPxj768HnkW+IZAO+tMzdn6c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Damage.DamageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Damage.DamageType.html",
+          "hash": "cD5+hni4XjpKgovs0Ds153Da4c6pQ7ztcN3y00YPSL0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Damage.Damageable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Damage.Damageable.html",
+          "hash": "kWkWIXTJp0M66dWA302zkvpaTTGu43RHcevl+fyQBYI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Damage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Damage.html",
+          "hash": "CiaKBaiO2TwKtquwjQT0oVUSiOYuATdYeQ2N8IyWELA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Debugging.DebugLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Debugging.DebugLogger.html",
+          "hash": "KERPQviPouRoKAsAuBxpJzQSuaGNn60EgkGKojmxzvw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Debugging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Debugging.html",
+          "hash": "26YQ+tO4N//vz8/YUPi/XEWiW8zpNUdYi6b7VTbIaDQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.ArrayExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.ArrayExtensions.html",
+          "hash": "qGo+rNcBIldqfLi9QHDT0rq1yl0yDW4Fi7o++QOFSPQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.html",
+          "hash": "06lfOcphlG7Caa4Uq3N2JWbbQf+Ml28Tmf0wj+ZXAGI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html",
+          "hash": "NQG8FLYXJnonJ/lf20JXecmWyG5P7+BkIQ/zLlSsn9Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html",
+          "hash": "5DUj5+Hr1iQPJDRPiU7XYLVKICsD8fICa/JGj9iTNFs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.html",
+          "hash": "eLeqoRIarJGEfZVfOXQ8UiaFa+9ZvJjso0L69ufuVXQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.EventTriggerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.EventTriggerExtensions.html",
+          "hash": "HPVCTzHcQ7eYO2M4KeiAZKj0sit6SpWDj11lL8VJALo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.GameObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.GameObjectExtensions.html",
+          "hash": "5i4eX+XvsYV7jmPrbQPs1aUV0r7hijPMGuZLFbpRNUY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.GetOrAddComponentExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.GetOrAddComponentExtension.html",
+          "hash": "ZQfIVfL5261QfHJJMHeDQuaCSvWURuNXM6o6mKbEsOg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html",
+          "hash": "X3x3gYm9N+xsYS5XxNcq+tHsElTbNo359dQj2H9jh/s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.Int64Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.Int64Extensions.html",
+          "hash": "i2t7nWEYPlrHRHaYHk82miaejX0rYBM8Be43PAy7KMI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.LayerMaskExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.LayerMaskExtensions.html",
+          "hash": "HfbXniNV3qqN+EulratK4Ev/kYr5yGPu9oOBTGoFULI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.RSAParametersExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.RSAParametersExtensions.html",
+          "hash": "Q91bncIQZgjG3R/1Pb9RVA0rkYzQXEqREZD0f0AAmhY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.RaycastHitExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.RaycastHitExtensions.html",
+          "hash": "YLJaAGFBDTLjjCl2FylHFvWRcI6pF50ugMj2c8CpHP0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.StringBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.StringBuilderExtensions.html",
+          "hash": "jkaWN0riL4MJkSCxUceWZGwChig/Wl84/huTTQn6dng="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.StringExtensions.html",
+          "hash": "HvGgzy0IA4DRYRwIrsjCTN2aJdVyd22F7SqZAs1roIQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.Vector2Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.Vector2Extensions.html",
+          "hash": "4wYSwYibu/4r6XeXXa0t4qyhXwMcTSyXJ1TS/4LVSIQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.html",
+          "hash": "v+4y+wvH8okE2SjIOiOEEcL0+xuspq6xuAdISZikpZw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.GlitchEd25519.GlitchEd25519.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.GlitchEd25519.GlitchEd25519.html",
+          "hash": "o+RP8phq3TeCxdAqjMHzCQQrUlxJ305ww4hOT0CsD2A="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_cached.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_cached.html",
+          "hash": "G6Bz0chkgaBTz23h2/ZzxoprdQQDVgW2YZwQDMrfrxA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_p1p1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_p1p1.html",
+          "hash": "DOUYFErJeOmrCKEWYw6Ym1BxlFkgUKzN4A4fkfsZ59E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_p2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_p2.html",
+          "hash": "zJl6bmFqeOIk+uIpqN0I7wzleFhe2Q5usfzGgYCmBbM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_p3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_p3.html",
+          "hash": "vYL85si8bvMPdGCgqKu85ZaSJxjKBcIoxLRMGGHNmK4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_precomp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_precomp.html",
+          "hash": "Yx6SCVJ/IPi0i6yFqHPjNwslmQoiKAm+dfZYsxrfY7E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.GlitchEd25519.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.GlitchEd25519.html",
+          "hash": "yvhnnEgV7nBxS+YNOP3c8OMJ/PFPKHa4GY0ouzNwdUs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Identification.GUID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Identification.GUID.html",
+          "hash": "DgUdpuoPRzUCyqjhVeiIDCr/hqio39fBISK9RHO/Cc0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Identification.GUIDEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Identification.GUIDEditor.html",
+          "hash": "Oe/Lwcw7UVFu6hNWaautGDqVbaX75dnVkn+SYB2Bneo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Identification.ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Identification.ID.html",
+          "hash": "mo9jszdcj0jx6s4qxJpjjeaejpxqyEkjc+4bf7aXHTY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Identification.IDEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Identification.IDEditor.html",
+          "hash": "fp6kcyaF5vGLgjw9HJfj/vdIX7Ltl9p/5hAOdvmEQXE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Identification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Identification.html",
+          "hash": "iGwO5v5FsicA0VS9JN7JleT7Nnqhb6H+q58UIhqhS7Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Input.Examples.XInputTestCS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Input.Examples.XInputTestCS.html",
+          "hash": "8j4kXT/u6l9ctd/wI/cPtWb6LgKqmzJKObjkyPm2ODI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Input.Examples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Input.Examples.html",
+          "hash": "WmVpgfaCyhUTkubLtuwPbCs2STAfXOCbbPHyfGLwHKM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Input.InputDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Input.InputDevice.html",
+          "hash": "J4xP68MJx/3qG0865H4+nOJDW/3E4pUcul8TpiKupgA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Input.InputMixer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Input.InputMixer.html",
+          "hash": "nQ4PW9U2wnYPz13tIZzZ7GyJG9Ca7hYqY39Z7gsj9/o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Input.KeyboardAndMouse.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Input.KeyboardAndMouse.Axis.html",
+          "hash": "kCN4Pb9QDXlfI25j5pGcPUZoKmQ7j9wtSaWVTPStnFY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Input.KeyboardAndMouse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Input.KeyboardAndMouse.html",
+          "hash": "X+S2QsVgWJfzkZcZtMJDvCCMJkVU0C1Mo9XLGImkRrU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Input.Touchscreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Input.Touchscreen.html",
+          "hash": "zmdU1+09WF8LTakVeXx2RDj0923Mzd1sHvrv9nUY+OA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Input.XInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Input.XInput.html",
+          "hash": "j3U/COyGdvuTQUYi6hwxjeHjGwqGvBCJVWr1Y7KJ+MM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Input.XboxControllerAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Input.XboxControllerAxis.html",
+          "hash": "oGCmEnVPNgXGP0z5z98U3Hl9L7k0tvWRa7/+F1d7H54="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Input.XboxControllerButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Input.XboxControllerButton.html",
+          "hash": "Qg3O7RyEOg9tLveoa+waRZ+H5iW++W1MAwtZBplNGZ0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Input.html",
+          "hash": "AZoNV6kbVKilfVPxnznoy4eFtY9lqhVKVd50aYiJZz8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Lifetime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Lifetime.html",
+          "hash": "t6Tz6QWnnivsnmX7e2YThrHXZEzaRQZTB5zYMQ21i9k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Logic.Counter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Logic.Counter.html",
+          "hash": "Ncj1DfrWsF4uRwg6FiFf2BnAPDVF+35GjnwBG9TirrY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Logic.Relay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Logic.Relay.html",
+          "hash": "oPJhuV6r6D3cTel9jIB34NAZjsi3kox5y4zEY3r0Gxw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Logic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Logic.html",
+          "hash": "ym8bnOfqK3FbUfL6WDjDM03pzAGGecucXo6S/83zTyw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.TriggerVolumes.TriggerVolume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.TriggerVolumes.TriggerVolume.html",
+          "hash": "eg/UtYzMm7zZyVSSljZ8UubN+vl1+a0yGQqNzAlRY3Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.TriggerVolumes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.TriggerVolumes.html",
+          "hash": "BqK7Nuovp61TfCzyA5RQ6aDR+esKf06kWB+hq28SGG8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Utilities.Colors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Utilities.Colors.html",
+          "hash": "WHq5oLmOC+RPGo0EPnWU9FnEScX34+b+PVTc+0GCpZ4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Utilities.Cursor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Utilities.Cursor.html",
+          "hash": "pc3PBBeedDhko02z1ndp3EE9ZAspcKnHK+XO/05aiZY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Utilities.GUIDGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Utilities.GUIDGenerator.html",
+          "hash": "E/3aBEThkjbGIMpaCHBETWArLX+ehYe60LDZFqWGK9E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Utilities.GZip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Utilities.GZip.html",
+          "hash": "3lplcVmeQHZnpisQ1JMPFEPi8t0t/sPFoXOby9NrkfM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Utilities.SaveCombinedMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Utilities.SaveCombinedMesh.html",
+          "hash": "GKUbKGRVq3K0uFTaMbwWctLSwY6jthntK1oRwLpeW+4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Utilities.ScreenshotManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Utilities.ScreenshotManager.html",
+          "hash": "cdSSpe2Hu6lZuex7yaSFhEaz8Ia0kekN7lOJyu07HLU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Utilities.SelectStaticGameObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Utilities.SelectStaticGameObjects.html",
+          "hash": "vJc3cuIObifB72TzOr5atDCPsGHFGQA77spZ7s4b7y4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Utilities.SfxUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Utilities.SfxUtility.html",
+          "hash": "s6H2uYICVEhoB3ef/A7rl84NDQz9H7MsSEoDnebwZKM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Utilities.SymmetricCryptography.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Utilities.SymmetricCryptography.html",
+          "hash": "72yjBjVNA7i56xMgmPYmVrfGUMGLM4PKKEk9zWajaGI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Utilities.YieldInstructions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Utilities.YieldInstructions.html",
+          "hash": "mcCHirN1nnxlcXNJ/92KXF9uVJRUn0OrCpWp0JFPQSM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.Utilities.html",
+          "hash": "coal8XoD+bW0ve/+HzRehVLleVGYvNSIjgvPdT3hVJQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.html",
+          "hash": "ua3SUbARHrYt+xzlbGta2/8Y3WxXHShWMBR5/zWV3GY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "vgNfDpb9HE1ygx4UF3S7umZjSACEG9ycEW4KlqzzDD0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "/ZAHo0J2CRAsrQNyJFq+BZUWPisyeQGVCsRc3nIAEMY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "7F1PubZwJ1A1YJEFsNpJLMjzBefNsOhRxqiODuerxgA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "W0l8Jr9JcXlc1McO1ntn3ZnQVAmN9NmoYUhwsc0L/V0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 1
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 64,
+          "skipped_file_count": 64
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GlitchEd25519
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GlitchEd25519
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519">
+  
+  
+  <h1 id="GlitchedPolygons_GlitchEd25519_GlitchEd25519" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519" class="text-break">Class GlitchEd25519
+  </h1>
+  <div class="markdown level0 summary"><p>C# translation of the <a href="https://github.com/GlitchedPolygons/GlitchEd25519">GlitchEd25519</a>
+fork of the <a href="https://github.com/orlp/ed25519">orlp/ed25519</a> C library.<p> </p>
+Exposes functions for generating Ed25519 key-pairs, performing key exchange operations on them, as well as signing and verifying messages.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GlitchEd25519</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GlitchedPolygons.GlitchEd25519.html">GlitchedPolygons.GlitchEd25519</a></h6>
+  <h6><strong>Assembly</strong>: UnityScriptsLibrary.dll</h6>
+  <h5 id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class GlitchEd25519</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_GlitchEd25519_GlitchEd25519_AddScalar_System_Span_System_Byte___System_Span_System_Byte___System_ReadOnlySpan_System_Byte__.md&amp;value=---%0Auid%3A%20GlitchedPolygons.GlitchEd25519.GlitchEd25519.AddScalar(System.Span%7BSystem.Byte%7D%40%2CSystem.Span%7BSystem.Byte%7D%40%2CSystem.ReadOnlySpan%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/GlitchEd25519/GlitchEd25519.cs/#L239">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_AddScalar_" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.AddScalar*"></a>
+  <h4 id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_AddScalar_System_Span_System_Byte___System_Span_System_Byte___System_ReadOnlySpan_System_Byte__" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.AddScalar(System.Span{System.Byte}@,System.Span{System.Byte}@,System.ReadOnlySpan{System.Byte})">AddScalar(ref Span&lt;Byte&gt;, ref Span&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds scalar to the given key pair where scalar is a 32 byte buffer (possibly generated with ed25519_create_seed), generating a new key pair.<p> </p>
+You can calculate the public key sum without knowing the private key and vice versa by passing in NULL for the key you don't know.<p> </p>
+This is useful for enforcing randomness on a key pair by a third party while only knowing the public key, among other things.<p> </p>
+Warning: the last bit of the scalar is ignored - if comparing scalars, make sure to clear it with <code>scalar[31] &amp;= 127</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddScalar(ref Span&lt;byte&gt; outPublicKey, ref Span&lt;byte&gt; outPrivateKey, ReadOnlySpan&lt;byte&gt; scalar)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">outPublicKey</span></td>
+        <td><p>32B R/W public key buffer.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">outPrivateKey</span></td>
+        <td><p>64B R/W private key buffer.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">scalar</span></td>
+        <td><p>32B RO scalar buffer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_AddScalar_System_Span_System_Byte___System_Span_System_Byte___System_ReadOnlySpan_System_Byte___seealso">See Also</h5>
+  <div class="seealso">
+      <div><span><a href="http://crypto.stackexchange.com/a/6215/4697">http://crypto.stackexchange.com/a/6215/4697</a></span></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_GlitchEd25519_GlitchEd25519_ConvertKeyFromRef10ToOrlp_System_Span_System_Byte___System_ReadOnlySpan_System_Byte__.md&amp;value=---%0Auid%3A%20GlitchedPolygons.GlitchEd25519.GlitchEd25519.ConvertKeyFromRef10ToOrlp(System.Span%7BSystem.Byte%7D%40%2CSystem.ReadOnlySpan%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/GlitchEd25519/GlitchEd25519.cs/#L107">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_ConvertKeyFromRef10ToOrlp_" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.ConvertKeyFromRef10ToOrlp*"></a>
+  <h4 id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_ConvertKeyFromRef10ToOrlp_System_Span_System_Byte___System_ReadOnlySpan_System_Byte__" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.ConvertKeyFromRef10ToOrlp(System.Span{System.Byte}@,System.ReadOnlySpan{System.Byte})">ConvertKeyFromRef10ToOrlp(ref Span&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Converts a private key that was generated using <a class="xref" href="GlitchedPolygons.GlitchEd25519.GlitchEd25519.html#GlitchedPolygons_GlitchEd25519_GlitchEd25519_CreateKeypairRef10_System_Span_System_Byte___System_Span_System_Byte___System_ReadOnlySpan_System_Byte__">CreateKeypairRef10(ref Span&lt;Byte&gt;, ref Span&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;)</a>
+or via libsodium, NaCl or SUPERCOP (or any other Ed25519 implementation that uses the Ref10 private key format).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ConvertKeyFromRef10ToOrlp(ref Span&lt;byte&gt; outPrivateKeyOrlp, ReadOnlySpan&lt;byte&gt; privateKeyRef10)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">outPrivateKeyOrlp</span></td>
+        <td><p>Where to write the 64 bytes of private key into.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">privateKeyRef10</span></td>
+        <td><p>The private Ed25519 key in Ref10 format to convert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_GlitchEd25519_GlitchEd25519_CreateKeypair_System_Span_System_Byte___System_Span_System_Byte___System_ReadOnlySpan_System_Byte__.md&amp;value=---%0Auid%3A%20GlitchedPolygons.GlitchEd25519.GlitchEd25519.CreateKeypair(System.Span%7BSystem.Byte%7D%40%2CSystem.Span%7BSystem.Byte%7D%40%2CSystem.ReadOnlySpan%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/GlitchEd25519/GlitchEd25519.cs/#L40">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_CreateKeypair_" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.CreateKeypair*"></a>
+  <h4 id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_CreateKeypair_System_Span_System_Byte___System_Span_System_Byte___System_ReadOnlySpan_System_Byte__" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.CreateKeypair(System.Span{System.Byte}@,System.Span{System.Byte}@,System.ReadOnlySpan{System.Byte})">CreateKeypair(ref Span&lt;Byte&gt;, ref Span&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new key-pair from the given <code data-dev-comment-type="paramref" class="paramref">seed</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateKeypair(ref Span&lt;byte&gt; outPublicKey, ref Span&lt;byte&gt; outPrivateKey, ReadOnlySpan&lt;byte&gt; seed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">outPublicKey</span></td>
+        <td><p>Writable 32 byte buffer in which the public key should be written into.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">outPrivateKey</span></td>
+        <td><p>Writable 64 byte buffer in which the private key (in pre-hashed orlp format format) should be written into.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">seed</span></td>
+        <td><p>32B seed to use for key-pair generation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_GlitchEd25519_GlitchEd25519_CreateKeypairRef10_System_Span_System_Byte___System_Span_System_Byte___System_ReadOnlySpan_System_Byte__.md&amp;value=---%0Auid%3A%20GlitchedPolygons.GlitchEd25519.GlitchEd25519.CreateKeypairRef10(System.Span%7BSystem.Byte%7D%40%2CSystem.Span%7BSystem.Byte%7D%40%2CSystem.ReadOnlySpan%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/GlitchEd25519/GlitchEd25519.cs/#L73">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_CreateKeypairRef10_" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.CreateKeypairRef10*"></a>
+  <h4 id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_CreateKeypairRef10_System_Span_System_Byte___System_Span_System_Byte___System_ReadOnlySpan_System_Byte__" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.CreateKeypairRef10(System.Span{System.Byte}@,System.Span{System.Byte}@,System.ReadOnlySpan{System.Byte})">CreateKeypairRef10(ref Span&lt;Byte&gt;, ref Span&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new key pair from the given seed in the Ref10 format (equivalent to what you'd get from the official SUPERCOP Ed25519 implementation and libsodium).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateKeypairRef10(ref Span&lt;byte&gt; outPublicKey, ref Span&lt;byte&gt; outPrivateKeyRef10, ReadOnlySpan&lt;byte&gt; seed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">outPublicKey</span></td>
+        <td><p>Writable 32 byte buffer in which the public key should be written into.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">outPrivateKeyRef10</span></td>
+        <td><p>Writable 64 byte buffer in which the private key (in Ref10 format) should be written into.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">seed</span></td>
+        <td><p>32B seed to use for key-pair generation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_GlitchEd25519_GlitchEd25519_CreateSeed_System_Span_System_Byte___System_ReadOnlySpan_System_Byte__.md&amp;value=---%0Auid%3A%20GlitchedPolygons.GlitchEd25519.GlitchEd25519.CreateSeed(System.Span%7BSystem.Byte%7D%40%2CSystem.ReadOnlySpan%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/GlitchEd25519/GlitchEd25519.cs/#L18">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_CreateSeed_" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.CreateSeed*"></a>
+  <h4 id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_CreateSeed_System_Span_System_Byte___System_ReadOnlySpan_System_Byte__" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.CreateSeed(System.Span{System.Byte}@,System.ReadOnlySpan{System.Byte})">CreateSeed(ref Span&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new random seed to use for key-pair generation. <code data-dev-comment-type="paramref" class="paramref">additionalEntropy</code> is supported, but not mandatory (pass <code>Array.Empty&lt;byte&gt; for no additional user-provided entropy).</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateSeed(ref Span&lt;byte&gt; outSeed, ReadOnlySpan&lt;byte&gt; additionalEntropy)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">outSeed</span></td>
+        <td><p>Writable 32B buffer where to write the random seed into.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">additionalEntropy</span></td>
+        <td><p>[OPTIONAL] Additional entropy to add randomness to the (hopefully) already very random seed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_GlitchEd25519_GlitchEd25519_KeyExchange_System_Span_System_Byte___System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__.md&amp;value=---%0Auid%3A%20GlitchedPolygons.GlitchEd25519.GlitchEd25519.KeyExchange(System.Span%7BSystem.Byte%7D%40%2CSystem.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.ReadOnlySpan%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/GlitchEd25519/GlitchEd25519.cs/#L129">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_KeyExchange_" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.KeyExchange*"></a>
+  <h4 id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_KeyExchange_System_Span_System_Byte___System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.KeyExchange(System.Span{System.Byte}@,System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})">KeyExchange(ref Span&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Performs a key exchange on the given public key and private key, producing a shared secret.<p> </p>
+It is recommended to hash the shared secret before using it.<p> </p>
+<code data-dev-comment-type="paramref" class="paramref">outSharedSecret</code> must be a 32 byte writable buffer where the shared secret will be stored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void KeyExchange(ref Span&lt;byte&gt; outSharedSecret, ReadOnlySpan&lt;byte&gt; publicKey, ReadOnlySpan&lt;byte&gt; privateKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">outSharedSecret</span></td>
+        <td><p>32B writable output buffer where to store the shared secret.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">publicKey</span></td>
+        <td><p>32B of very readable, high quality public key material.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">privateKey</span></td>
+        <td><p>64B private key buffer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_GlitchEd25519_GlitchEd25519_KeyExchangeRef10_System_Span_System_Byte___System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__.md&amp;value=---%0Auid%3A%20GlitchedPolygons.GlitchEd25519.GlitchEd25519.KeyExchangeRef10(System.Span%7BSystem.Byte%7D%40%2CSystem.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.ReadOnlySpan%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/GlitchEd25519/GlitchEd25519.cs/#L218">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_KeyExchangeRef10_" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.KeyExchangeRef10*"></a>
+  <h4 id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_KeyExchangeRef10_System_Span_System_Byte___System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.KeyExchangeRef10(System.Span{System.Byte}@,System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})">KeyExchangeRef10(ref Span&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Performs a key exchange on the given public key and private key in Ref10 format, producing a shared secret.<p> </p>
+It is recommended to hash the shared secret before using it.<p> </p>
+<code data-dev-comment-type="paramref" class="paramref">outSharedSecret</code> must be a 32 byte writable buffer where the shared secret will be stored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void KeyExchangeRef10(ref Span&lt;byte&gt; outSharedSecret, ReadOnlySpan&lt;byte&gt; publicKey, ReadOnlySpan&lt;byte&gt; privateKeyRef10)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">outSharedSecret</span></td>
+        <td><p>32B writable output buffer where to store the shared secret.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">publicKey</span></td>
+        <td><p>32B of very readable, high quality public key material.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">privateKeyRef10</span></td>
+        <td><p>64B Ref10 private key buffer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_GlitchEd25519_GlitchEd25519_Sign_System_Span_System_Byte___System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__.md&amp;value=---%0Auid%3A%20GlitchedPolygons.GlitchEd25519.GlitchEd25519.Sign(System.Span%7BSystem.Byte%7D%40%2CSystem.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.ReadOnlySpan%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/GlitchEd25519/GlitchEd25519.cs/#L366">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_Sign_" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.Sign*"></a>
+  <h4 id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_Sign_System_Span_System_Byte___System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.Sign(System.Span{System.Byte}@,System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})">Sign(ref Span&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a signature of the given <code data-dev-comment-type="paramref" class="paramref">message</code> with the given key pair.
+The <code data-dev-comment-type="paramref" class="paramref">outSignature</code> argument must be a writable 64 byte buffer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Sign(ref Span&lt;byte&gt; outSignature, ReadOnlySpan&lt;byte&gt; message, ReadOnlySpan&lt;byte&gt; publicKey, ReadOnlySpan&lt;byte&gt; privateKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">outSignature</span></td>
+        <td><p>Where to write the signature into (must be at least 64B of writable output buffer).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The data to sign.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">publicKey</span></td>
+        <td><p>Public key (readable 32B buffer).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">privateKey</span></td>
+        <td><p>Private key (readable 64B buffer).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_GlitchEd25519_GlitchEd25519_SignRef10_System_Span_System_Byte___System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__.md&amp;value=---%0Auid%3A%20GlitchedPolygons.GlitchEd25519.GlitchEd25519.SignRef10(System.Span%7BSystem.Byte%7D%40%2CSystem.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.ReadOnlySpan%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/GlitchEd25519/GlitchEd25519.cs/#L409">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_SignRef10_" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.SignRef10*"></a>
+  <h4 id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_SignRef10_System_Span_System_Byte___System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.SignRef10(System.Span{System.Byte}@,System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})">SignRef10(ref Span&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a signature of the given <code data-dev-comment-type="paramref" class="paramref">message</code> using only the given Ref10 (SUPERCOP) format Ed25519 private key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SignRef10(ref Span&lt;byte&gt; outSignature, ReadOnlySpan&lt;byte&gt; message, ReadOnlySpan&lt;byte&gt; privateKeyRef10)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">outSignature</span></td>
+        <td><p>Where to write the signature into (must be at least 64B of writable output buffer).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The data to sign.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">privateKeyRef10</span></td>
+        <td><p>Private key (readable 64B buffer containing the private key in Ref10-format).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_GlitchEd25519_GlitchEd25519_Verify_System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__.md&amp;value=---%0Auid%3A%20GlitchedPolygons.GlitchEd25519.GlitchEd25519.Verify(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.ReadOnlySpan%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/GlitchEd25519/GlitchEd25519.cs/#L467">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_Verify_" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.Verify*"></a>
+  <h4 id="GlitchedPolygons_GlitchEd25519_GlitchEd25519_Verify_System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__" data-uid="GlitchedPolygons.GlitchEd25519.GlitchEd25519.Verify(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})">Verify(ReadOnlySpan&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;, ReadOnlySpan&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Verifies the <code data-dev-comment-type="paramref" class="paramref">signature</code> on the given <code data-dev-comment-type="paramref" class="paramref">message</code> using the provided <code data-dev-comment-type="paramref" class="paramref">publicKey</code>.<p> </p>
+<code data-dev-comment-type="paramref" class="paramref">signature</code> must be a readable 64B buffer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Verify(ReadOnlySpan&lt;byte&gt; signature, ReadOnlySpan&lt;byte&gt; message, ReadOnlySpan&lt;byte&gt; publicKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">signature</span></td>
+        <td><p>Readable 64B buffer containing the signature to verify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Message to test the provided <code data-dev-comment-type="paramref" class="paramref">signature</code> against.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">publicKey</span></td>
+        <td><p>The public Ed25519 key with which to verify the signature.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether or not the provided <code data-dev-comment-type="paramref" class="paramref">signature</code> could be validated successfully against the passed <code data-dev-comment-type="paramref" class="paramref">message</code> + <code data-dev-comment-type="paramref" class="paramref">publicKey</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_GlitchEd25519_GlitchEd25519.md&amp;value=---%0Auid%3A%20GlitchedPolygons.GlitchEd25519.GlitchEd25519%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/GlitchEd25519/Util.cs/#L5" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

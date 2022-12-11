@@ -1,0 +1,443 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TriggerVolume
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TriggerVolume
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume">
+  
+  
+  <h1 id="GlitchedPolygons_TriggerVolumes_TriggerVolume" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume" class="text-break">Class TriggerVolume
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a trigger volume that fires various events when something has entered/escaped its <see cref="!:UnityEngine.BoxCollider"></see> volume.<p> </p>
+You can decide what happens when specific objects enter this trigger volume by hooking up the events inside the <a class="xref" href="GlitchedPolygons.TriggerVolumes.TriggerVolume.html">TriggerVolume</a>'s inspector.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TriggerVolume</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GlitchedPolygons.TriggerVolumes.html">GlitchedPolygons.TriggerVolumes</a></h6>
+  <h6><strong>Assembly</strong>: UnityScriptsLibrary.dll</h6>
+  <h5 id="GlitchedPolygons_TriggerVolumes_TriggerVolume_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TriggerVolume : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_TriggerVolumes_TriggerVolume_customFilter.md&amp;value=---%0Auid%3A%20GlitchedPolygons.TriggerVolumes.TriggerVolume.customFilter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/TriggerVolumes/TriggerVolume.cs/#L53">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_TriggerVolumes_TriggerVolume_customFilter" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume.customFilter">customFilter</h4>
+  <div class="markdown level1 summary"><p>You can filter specific <see cref="!:Collider"></see>s to be the only ones feasible of raising the OnTriggerEnter/Exit events (after filtering by layer and tag).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Collider[] customFilter</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Collider</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_TriggerVolumes_TriggerVolume_delaySeconds.md&amp;value=---%0Auid%3A%20GlitchedPolygons.TriggerVolumes.TriggerVolume.delaySeconds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/TriggerVolumes/TriggerVolume.cs/#L23">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_TriggerVolumes_TriggerVolume_delaySeconds" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume.delaySeconds">delaySeconds</h4>
+  <div class="markdown level1 summary"><p>Delay in seconds (e.g. the player enters the trigger volume and the OnTriggerEnter event is fired in [delay] seconds).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float delaySeconds</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_TriggerVolumes_TriggerVolume_firedEvents.md&amp;value=---%0Auid%3A%20GlitchedPolygons.TriggerVolumes.TriggerVolume.firedEvents%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/TriggerVolumes/TriggerVolume.cs/#L64">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_TriggerVolumes_TriggerVolume_firedEvents" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume.firedEvents">firedEvents</h4>
+  <div class="markdown level1 summary"><p>The total amount of enter/exit events this <a class="xref" href="GlitchedPolygons.TriggerVolumes.TriggerVolume.html">TriggerVolume</a> has raised so far.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int firedEvents</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_TriggerVolumes_TriggerVolume_id.md&amp;value=---%0Auid%3A%20GlitchedPolygons.TriggerVolumes.TriggerVolume.id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/TriggerVolumes/TriggerVolume.cs/#L77">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_TriggerVolumes_TriggerVolume_id" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume.id">id</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ID id</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GlitchedPolygons.Identification.ID.html">ID</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_TriggerVolumes_TriggerVolume_layerMask.md&amp;value=---%0Auid%3A%20GlitchedPolygons.TriggerVolumes.TriggerVolume.layerMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/TriggerVolumes/TriggerVolume.cs/#L38">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_TriggerVolumes_TriggerVolume_layerMask" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume.layerMask">layerMask</h4>
+  <div class="markdown level1 summary"><p>Only intruders that pass this <see cref="!:LayerMask"></see> filter will be able to fire the OnTriggerEnter/Exit events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected LayerMask layerMask</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_TriggerVolumes_TriggerVolume_maxEvents.md&amp;value=---%0Auid%3A%20GlitchedPolygons.TriggerVolumes.TriggerVolume.maxEvents%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/TriggerVolumes/TriggerVolume.cs/#L30">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_TriggerVolumes_TriggerVolume_maxEvents" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume.maxEvents">maxEvents</h4>
+  <div class="markdown level1 summary"><p>Limits how many times this trigger is allowed to fire its events. A value of one would allow this trigger to be fired only once in its lifetime; zero means no limits at all (infinite trigger firing).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int maxEvents</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_TriggerVolumes_TriggerVolume_tags.md&amp;value=---%0Auid%3A%20GlitchedPolygons.TriggerVolumes.TriggerVolume.tags%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/TriggerVolumes/TriggerVolume.cs/#L46">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_TriggerVolumes_TriggerVolume_tags" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume.tags">tags</h4>
+  <div class="markdown level1 summary"><p>You can specify a list of tags of which each intruder has to have at least one in order to pass the filter.<p> </p>
+An empty array disables the tag filter (meaning that any tag is ok).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string[] tags</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_TriggerVolumes_TriggerVolume_GetFiredEventsCount.md&amp;value=---%0Auid%3A%20GlitchedPolygons.TriggerVolumes.TriggerVolume.GetFiredEventsCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/TriggerVolumes/TriggerVolume.cs/#L69">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_TriggerVolumes_TriggerVolume_GetFiredEventsCount_" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume.GetFiredEventsCount*"></a>
+  <h4 id="GlitchedPolygons_TriggerVolumes_TriggerVolume_GetFiredEventsCount" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume.GetFiredEventsCount">GetFiredEventsCount()</h4>
+  <div class="markdown level1 summary"><p>How many events this <a class="xref" href="GlitchedPolygons.TriggerVolumes.TriggerVolume.html">TriggerVolume</a> already invoked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetFiredEventsCount()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_TriggerVolumes_TriggerVolume_GetID.md&amp;value=---%0Auid%3A%20GlitchedPolygons.TriggerVolumes.TriggerVolume.GetID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/TriggerVolumes/TriggerVolume.cs/#L82">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_TriggerVolumes_TriggerVolume_GetID_" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume.GetID*"></a>
+  <h4 id="GlitchedPolygons_TriggerVolumes_TriggerVolume_GetID" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume.GetID">GetID()</h4>
+  <div class="markdown level1 summary"><p>Gets the trigger volume's identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetID()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The unique ID (int).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_TriggerVolumes_TriggerVolume_SetFiredEventsCount_System_Int32_.md&amp;value=---%0Auid%3A%20GlitchedPolygons.TriggerVolumes.TriggerVolume.SetFiredEventsCount(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/TriggerVolumes/TriggerVolume.cs/#L75">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_TriggerVolumes_TriggerVolume_SetFiredEventsCount_" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume.SetFiredEventsCount*"></a>
+  <h4 id="GlitchedPolygons_TriggerVolumes_TriggerVolume_SetFiredEventsCount_System_Int32_" data-uid="GlitchedPolygons.TriggerVolumes.TriggerVolume.SetFiredEventsCount(System.Int32)">SetFiredEventsCount(Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets <a class="xref" href="GlitchedPolygons.TriggerVolumes.TriggerVolume.html#GlitchedPolygons_TriggerVolumes_TriggerVolume_firedEvents">firedEvents</a>. Useful when loading from a savegame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFiredEventsCount(int firedEvents)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">firedEvents</span></td>
+        <td><p>The new amount of times the trigger has fired.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_TriggerVolumes_TriggerVolume.md&amp;value=---%0Auid%3A%20GlitchedPolygons.TriggerVolumes.TriggerVolume%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/TriggerVolumes/TriggerVolume.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

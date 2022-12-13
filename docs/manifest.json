@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Damage.Damage.html",
-          "hash": "4Bq+XOKQgsQibVTE/W4x9f3xZo23MuiCSKM3/1Aw1Zc="
+          "hash": "InuJqSkVUa3RACdHSRmodgF1sIkoHjbLaljL9pf9R18="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Damage.DamageType.html",
-          "hash": "9XN/zJfDYGlktdKCEaqWb7s0+9zwn+Z8nJhebhrLxMs="
+          "hash": "cD5+hni4XjpKgovs0Ds153Da4c6pQ7ztcN3y00YPSL0="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Damage.Damageable.html",
-          "hash": "UbNzcwQTD9/nV3YftCTSFbHnwxX1PZaa797Ja7lbzCg="
+          "hash": "EuKVTqrOtycr6ElH4zwaJYvENot9IDco4RRBtt9D7Y4="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Debugging.DebugLogger.html",
-          "hash": "oyts0FGmvqACA9tgttn/cUL8uCBt+Cdzfh8SKZ9e8vw="
+          "hash": "SJbCg70f4o5ypSq2UhQX/pEkPpa7cxRVCoHVrlFEJbs="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.ArrayExtensions.html",
-          "hash": "XvvyfQXImJFQmLp3o2KJwx+/BAKMmcTF+IbmBGnIxQM="
+          "hash": "qGo+rNcBIldqfLi9QHDT0rq1yl0yDW4Fi7o++QOFSPQ="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.html",
-          "hash": "iSBIXDeakNXKKn3GgOg778/f0PReLyvmOIgr5hdXTPk="
+          "hash": "06lfOcphlG7Caa4Uq3N2JWbbQf+Ml28Tmf0wj+ZXAGI="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html",
-          "hash": "o0BxX76DzCkfSiNty/M0XnlhttPKbx8m5+zY+GjzOz8="
+          "hash": "NQG8FLYXJnonJ/lf20JXecmWyG5P7+BkIQ/zLlSsn9Q="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html",
-          "hash": "7M6gHrpVVjjdwaIb78X5MicX3HTz9uDPUsOqo7wYo1A="
+          "hash": "5DUj5+Hr1iQPJDRPiU7XYLVKICsD8fICa/JGj9iTNFs="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.html",
-          "hash": "ouzLpVyBhfQ46MS72vW/0NWNxm4Glxt+giEvrGEqUuQ="
+          "hash": "eLeqoRIarJGEfZVfOXQ8UiaFa+9ZvJjso0L69ufuVXQ="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.EventTriggerExtensions.html",
-          "hash": "R0bEOpUDsKw5bAB+0ULhiVHC/lXh25U3SiEXVQAkOAY="
+          "hash": "mgmE664OZxSW2VFsHAwppwRrNxR4dQgKSPi12VMi0bU="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.GameObjectExtensions.html",
-          "hash": "0e/0dCXFdDQU3AHtHIrTpNThRmVqXEbUaTJvSPjTL90="
+          "hash": "U5IDVjFGs0eV1Yk+P+ur+wNj4WZ2bZMp+OSnw45vIyc="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.GetOrAddComponentExtension.html",
-          "hash": "MkfCbZlw0LnqYtws9slRxtngMY4TfCOWAFk74f3XVVQ="
+          "hash": "/6Q/PZwM3esSNrmbWUIRIRvHgZzyYGsgfgA7UDW8XEE="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html",
-          "hash": "KxXyD8AtiPvq+ju260WfR4+nDssWns3LPMfj9TbQJXY="
+          "hash": "X3x3gYm9N+xsYS5XxNcq+tHsElTbNo359dQj2H9jh/s="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.Int64Extensions.html",
-          "hash": "pObIsya45JjvXQ20/gjWxipTp8O+l5iJYPk3AucbAak="
+          "hash": "i2t7nWEYPlrHRHaYHk82miaejX0rYBM8Be43PAy7KMI="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.LayerMaskExtensions.html",
-          "hash": "S3YL0SK1qhHhmiUR8htnG6PO8apYP5HYANW1f8KE8aE="
+          "hash": "FI+vZEXPIpQBYqB7fXcVIuVa4t/g5Q57hDQLt/1DQzw="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.RSAParametersExtensions.html",
-          "hash": "wubf1Xf7Z8d4cki8GHTGfj69cK8RxS3BB1RbQqcFqj8="
+          "hash": "Q91bncIQZgjG3R/1Pb9RVA0rkYzQXEqREZD0f0AAmhY="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.RaycastHitExtensions.html",
-          "hash": "eD2mcx6INsxcWrsLnCqnHJeN9N7vLxiWp5SvikmKnpw="
+          "hash": "vzhRJU+pcYwXi/fsn7IJxC7QSKhp7IxscL/PiLUoxv0="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.StringBuilderExtensions.html",
-          "hash": "Ek6h9QGfYllBC710f6ftJc7qxhMhqG7hzIkCym8tNus="
+          "hash": "jkaWN0riL4MJkSCxUceWZGwChig/Wl84/huTTQn6dng="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.StringExtensions.html",
-          "hash": "g8He4DrLGX+BmpuNPQuCPh97zcEAhKpY9HF447BebUU="
+          "hash": "HvGgzy0IA4DRYRwIrsjCTN2aJdVyd22F7SqZAs1roIQ="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.Vector2Extensions.html",
-          "hash": "xWBCKPPfYhSd6qpyu3WMR1ini3ZmwLqhXSKR79n1tFw="
+          "hash": "Hbo5YhQN+gQmXPhaSlwo0rhmJUVWW/6iEokal8lw07s="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.GlitchEd25519.GlitchEd25519.html",
-          "hash": "Xs1yqyNRZtKVozWWr5oAhkyLwbiV9MAsl5jI/pX0iAo="
+          "hash": "o+RP8phq3TeCxdAqjMHzCQQrUlxJ305ww4hOT0CsD2A="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_cached.html",
-          "hash": "HVyI9i4jY3YtvZJ+2x5euY/b0n07XWXWOMgafcsLwTM="
+          "hash": "G6Bz0chkgaBTz23h2/ZzxoprdQQDVgW2YZwQDMrfrxA="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_p1p1.html",
-          "hash": "yUpIUao1jKu9ogcGtNkRCJ8k+fOn4KrEzA1qX18JCso="
+          "hash": "DOUYFErJeOmrCKEWYw6Ym1BxlFkgUKzN4A4fkfsZ59E="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_p2.html",
-          "hash": "5nzZijz34Jbg2+XcxLbvdH21ezjUtdwjA+IYHTjk0NM="
+          "hash": "zJl6bmFqeOIk+uIpqN0I7wzleFhe2Q5usfzGgYCmBbM="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_p3.html",
-          "hash": "kAbtc3o3mMKmwR5OCxwS0/eQgCFztW56fdwxSo5NkgI="
+          "hash": "vYL85si8bvMPdGCgqKu85ZaSJxjKBcIoxLRMGGHNmK4="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_precomp.html",
-          "hash": "0LwrigdOIh8k2Nu80nESLlWMmWDOZsd5S6elCOPTHyc="
+          "hash": "Yx6SCVJ/IPi0i6yFqHPjNwslmQoiKAm+dfZYsxrfY7E="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Identification.GUID.html",
-          "hash": "zuP6VJZ4QmjwLfRGuAm7zNfv8EqeuLuUTcrEz58ajrI="
+          "hash": "DgUdpuoPRzUCyqjhVeiIDCr/hqio39fBISK9RHO/Cc0="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Identification.GUIDEditor.html",
-          "hash": "uq3Lne3WaIxJu3Lsuhrohq5Ru3LiRNWNrRQxuQkOEm8="
+          "hash": "Oe/Lwcw7UVFu6hNWaautGDqVbaX75dnVkn+SYB2Bneo="
         }
       },
       "is_incremental": false,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Identification.ID.html",
-          "hash": "gDxukH7ALIXAvcLNTZQnCpDD5hyDxNS9UVCm6hNZ6dU="
+          "hash": "mo9jszdcj0jx6s4qxJpjjeaejpxqyEkjc+4bf7aXHTY="
         }
       },
       "is_incremental": false,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Identification.IDEditor.html",
-          "hash": "B/9cAO5hag5sLuIS3dHLVIH6Z6ePbgnM+JTpsRxWmEk="
+          "hash": "fp6kcyaF5vGLgjw9HJfj/vdIX7Ltl9p/5hAOdvmEQXE="
         }
       },
       "is_incremental": false,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.Examples.XInputTestCS.html",
-          "hash": "BQiM8I/iTxe2J1dmcHPCQazss7Iuoulk+emIQZLjdzI="
+          "hash": "8j4kXT/u6l9ctd/wI/cPtWb6LgKqmzJKObjkyPm2ODI="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.InputDevice.html",
-          "hash": "HuZ9DXsAWc6wP94lbdm+39FpyYp610j4+y5tCugxyas="
+          "hash": "J4xP68MJx/3qG0865H4+nOJDW/3E4pUcul8TpiKupgA="
         }
       },
       "is_incremental": false,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.InputMixer.html",
-          "hash": "8DnvQn2kFRaC6vHsLNuP1Vlrt9C0Q/Zo2Ms2snewV9U="
+          "hash": "nQ4PW9U2wnYPz13tIZzZ7GyJG9Ca7hYqY39Z7gsj9/o="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.KeyboardAndMouse.Axis.html",
-          "hash": "EmIpWC/ML+YuQE2UtCvfPKGZplODNRh85gzjsw5Uv0s="
+          "hash": "kCN4Pb9QDXlfI25j5pGcPUZoKmQ7j9wtSaWVTPStnFY="
         }
       },
       "is_incremental": false,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.KeyboardAndMouse.html",
-          "hash": "X6a7hBVeVhaamn2vUdRJ0HR8e9JeidUiw+qC5ryD6B4="
+          "hash": "ECMr0znuoR28+SImSAkqEQRmdYQ6/4TU+81Ciff+za4="
         }
       },
       "is_incremental": false,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.Touchscreen.html",
-          "hash": "cGCaL56dyOEG35v/yudxFq6ov+//rUCsI3RHPpTGdKU="
+          "hash": "Da7uh9JooyxZi117EKYOnWmX6IVLqh7CYetaNkcPHvM="
         }
       },
       "is_incremental": false,
@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.XInput.html",
-          "hash": "EJpvt6cTOAN9R9IVzbQjYhNPHzkfeYcZ0PufP9ECWds="
+          "hash": "j3U/COyGdvuTQUYi6hwxjeHjGwqGvBCJVWr1Y7KJ+MM="
         }
       },
       "is_incremental": false,
@@ -525,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.XboxControllerAxis.html",
-          "hash": "kz9bldXvzt7iLtZoU+DFVkvuxQ1FGRuh09AmfySvgPY="
+          "hash": "oGCmEnVPNgXGP0z5z98U3Hl9L7k0tvWRa7/+F1d7H54="
         }
       },
       "is_incremental": false,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.XboxControllerButton.html",
-          "hash": "6Z1FZFrS6v7tlK2O2VXbWwgiOjaNVuwPnb/ZAT38YV0="
+          "hash": "Qg3O7RyEOg9tLveoa+waRZ+H5iW++W1MAwtZBplNGZ0="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Lifetime.html",
-          "hash": "9oorMOlF5e03an8UGA83udzATfRH6IqrFm4ShrZA3o0="
+          "hash": "K/utayvkdUdS4zHSki48kMSDqrwKvz7Md7V7t0DqUhQ="
         }
       },
       "is_incremental": false,
@@ -573,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Logic.Counter.html",
-          "hash": "0cFfqEKenKVyX2V8SAYn8XOBrvDfkacqGijoVQEXd20="
+          "hash": "Ncj1DfrWsF4uRwg6FiFf2BnAPDVF+35GjnwBG9TirrY="
         }
       },
       "is_incremental": false,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Logic.Relay.html",
-          "hash": "DBs+K/eSIRQegGyesdgNYpIz8ZofvMESb6tCbE9EpuI="
+          "hash": "oPJhuV6r6D3cTel9jIB34NAZjsi3kox5y4zEY3r0Gxw="
         }
       },
       "is_incremental": false,
@@ -605,11 +605,191 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.Json.JsonSaveableComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.Json.JsonSaveableComponent.html",
+          "hash": "Myj2aJbVWmQMjjUz9M1DmCJlqAnlcrSC4cHaD8Zb0vU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.Json.JsonSaveableComponentTuple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.Json.JsonSaveableComponentTuple.html",
+          "hash": "fYo11WIGecR9BXGDjqbXyT4wQTq6ds18HbUO95J0OSU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.Json.JsonSavegame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.Json.JsonSavegame.html",
+          "hash": "JxB539CgDD+rTbBOlMlW+H0abhDgQUhUNqZvnC9ubqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.Json.JsonSavegameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.Json.JsonSavegameManager.html",
+          "hash": "h7P7S6KjXJSz6ecJExRlZddNQ2R2jIubYpMRDz5IEgg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.Json.JsonSpawnedPrefabTuple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.Json.JsonSpawnedPrefabTuple.html",
+          "hash": "i475dVtVV2fopZIXbOLHiIGnuikPuRC7QT26cpr7svw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.Json.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.Json.html",
+          "hash": "OFlW7ADqyF7JLlH5SPAq0b5a9L2CJ6+kjGLZdjm2B6k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.SaveableComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.SaveableComponent.html",
+          "hash": "IRbrSMRjDZXSvCXuZXgpWIsgstzEvdESfr80YcvY4+o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.SavegameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.SavegameManager.html",
+          "hash": "puhqheyIwLfnx65l7hV5sMNyMec3yQxNWhASX6NLa38="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.SpawnedPrefab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.SpawnedPrefab.html",
+          "hash": "sVU6PZIyibY2sMbWwPvhU3leyKX/cbvgbp+AVLRGS3Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.html",
+          "hash": "cjlrt0WoYYJ5d0UlYrVVNQq9RMMUr4AL3SMxV54IHfg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.Xml.Examples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.Xml.Examples.html",
+          "hash": "vivWbeLKaJsMd6dUtoiGr8Ma6+mD5byBRD6kYr4X5To="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html",
+          "hash": "MFQj+VPOeE8y/8M7o+Q0FdNISxqPSjiVVwEQfsm31Rc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.html",
+          "hash": "4/eVt1z/F1uLH32WUkgf7sKODVhTo94LAH2nQw5vPD8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.Xml.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.Xml.html",
+          "hash": "r4GH/MaTyqtRqM0mBPaD9hUggl5AE7zjq8Dtd/dVztY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.SavegameFramework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.SavegameFramework.html",
+          "hash": "VZRi+7aY3cEOSW7O8Rkwqz9YHw5WstJiQJOS7dDVquc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/GlitchedPolygons.TriggerVolumes.TriggerVolume.yml",
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.TriggerVolumes.TriggerVolume.html",
-          "hash": "rYy6i+CpCyAxKXsMMeg7CyzZjMCzaFduYD+zhO82lW8="
+          "hash": "xcdXxZHQGmmhX0JZrx7CiZ7auVi6etP9BH32KUdzDxo="
         }
       },
       "is_incremental": false,
@@ -633,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.Colors.html",
-          "hash": "Vo5YhE19ecpmUOZWRlkErF7DxGwnm2kB5+6kmedtm+w="
+          "hash": "gZY3SdrNkeA8jWd6cJc5Aa13cMQ2x1XQJIJguF612DQ="
         }
       },
       "is_incremental": false,
@@ -645,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.Cursor.html",
-          "hash": "y29lGxDss3VMmlYZ2wcTUtfOnrfWyOkuLnLlHqOyFz0="
+          "hash": "pc3PBBeedDhko02z1ndp3EE9ZAspcKnHK+XO/05aiZY="
         }
       },
       "is_incremental": false,
@@ -657,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.GUIDGenerator.html",
-          "hash": "vcDwiRO5JG00vTBeTDEdojoLBVNN/vBTydP/e536x/4="
+          "hash": "E/3aBEThkjbGIMpaCHBETWArLX+ehYe60LDZFqWGK9E="
         }
       },
       "is_incremental": false,
@@ -669,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.GZip.html",
-          "hash": "9PhSIo+0K9CF5dvH4k4X7Iybh4FuEIZ7JSpYrVNXBUM="
+          "hash": "3lplcVmeQHZnpisQ1JMPFEPi8t0t/sPFoXOby9NrkfM="
         }
       },
       "is_incremental": false,
@@ -681,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.SaveCombinedMesh.html",
-          "hash": "zLLit4iXdl73WgxxsAINQE8lxUeGCTwTWGuIlMOzRjg="
+          "hash": "M4bbwt4Cul62WhS6bnCAB+eJPThEWVf6LlRsUbx+HRA="
         }
       },
       "is_incremental": false,
@@ -693,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.ScreenshotManager.html",
-          "hash": "Zq3cTSILFIL6KVDnWiFIGsAf8hqfPW6DU0ooHDg9zUY="
+          "hash": "Ezqc0y8jkrUs9XlGc7IuQMaZimZYUGXWOPuXnXAZOPI="
         }
       },
       "is_incremental": false,
@@ -705,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.SelectStaticGameObjects.html",
-          "hash": "d2V/Cgu444EOsKNT1uHMjSyxn1cQxZBlj5xozlcH7S8="
+          "hash": "vJc3cuIObifB72TzOr5atDCPsGHFGQA77spZ7s4b7y4="
         }
       },
       "is_incremental": false,
@@ -717,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.SfxUtility.html",
-          "hash": "cwrwo2p5OD6pgIltw8ObIeTG7xsCSsdr0gPwx3X/K3g="
+          "hash": "s6H2uYICVEhoB3ef/A7rl84NDQz9H7MsSEoDnebwZKM="
         }
       },
       "is_incremental": false,
@@ -729,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.SymmetricCryptography.html",
-          "hash": "vWM5VGBXOL2DWWmDxCvbm9updSkfhJqWA3UaSZy7AZE="
+          "hash": "4nyQYCjSTynbFWibnxFVo1DVeXUyKcS1z1pIns7sBQQ="
         }
       },
       "is_incremental": false,
@@ -741,7 +921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.YieldInstructions.html",
-          "hash": "tzSbM9UlJjzySmNb+jWpOhqQ0ZjCorNOG8xA/NhV07k="
+          "hash": "SPKXtZEqNAQcGLsmn8ZefKxJ6ALSsOuv3UGRGz+qlh4="
         }
       },
       "is_incremental": false,
@@ -780,7 +960,7 @@
           "hash": "vgNfDpb9HE1ygx4UF3S7umZjSACEG9ycEW4KlqzzDD0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -789,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "/ZAHo0J2CRAsrQNyJFq+BZUWPisyeQGVCsRc3nIAEMY="
+          "hash": "O/Elh/HvGmL6oOoLbzozqG0KlOSOPq0NbIfDvB57QLk="
         }
       },
       "is_incremental": false,
@@ -841,7 +1021,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 64,
+          "total_file_count": 79,
           "skipped_file_count": 11
         },
         "TocDocumentProcessor": {

@@ -1,0 +1,1017 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SavegameManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SavegameManager
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager">
+  
+  
+  <h1 id="GlitchedPolygons_SavegameFramework_SavegameManager" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager" class="text-break">Class SavegameManager
+  </h1>
+  <div class="markdown level0 summary"><p>Abstract base class for all savegame manager implementations.<p> </p>
+There can be many, such as XML based ones, others that use JSON, or even ProtoBuf, YAML, msgpack, well... the possibilities are endless.<p> </p>
+They all share the same raw and basic functionalities defined in here though.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SavegameManager</span></div>
+      <div class="level2"><a class="xref" href="GlitchedPolygons.SavegameFramework.Json.JsonSavegameManager.html">JsonSavegameManager</a></div>
+      <div class="level2"><a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.html">XmlSavegameManager</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GlitchedPolygons.SavegameFramework.html">GlitchedPolygons.SavegameFramework</a></h6>
+  <h6><strong>Assembly</strong>: UnityScriptsLibrary.dll</h6>
+  <h5 id="GlitchedPolygons_SavegameFramework_SavegameManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class SavegameManager : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_batchSize.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.batchSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L151">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_batchSize" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.batchSize">batchSize</h4>
+  <div class="markdown level1 summary"><p>How many objects should be batched during saving / loading per frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int batchSize</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="GlitchedPolygons_SavegameFramework_SavegameManager_batchSize_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>E.g. a value of 256 in a big scene would spread the serialization of all the objects over multiple frames: every 256 processed objects,
+<code>yield return YieldInstructions.WaitForEndOfFrame;</code> is called! Put a lot of thought into what value to use here,
+because you don't want to brick the game during saving but also not spread the saving procedure over multiple seconds, causing state inconsistencies!</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_collectGarbageOnLoad.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.collectGarbageOnLoad%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L113">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_collectGarbageOnLoad" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.collectGarbageOnLoad">collectGarbageOnLoad</h4>
+  <div class="markdown level1 summary"><p><span class="xref">System.GC.Collect</span> after loading a savegame?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool collectGarbageOnLoad</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_collectGarbageOnSave.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.collectGarbageOnSave%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L106">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_collectGarbageOnSave" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.collectGarbageOnSave">collectGarbageOnSave</h4>
+  <div class="markdown level1 summary"><p>Collect generated garbage after saving?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool collectGarbageOnSave</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_compress.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.compress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L91">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_compress" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.compress">compress</h4>
+  <div class="markdown level1 summary"><p>Compress the savegame using <a class="xref" href="GlitchedPolygons.Utilities.GZip.html">GZip</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool compress</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_encrypt.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.encrypt%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L84">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_encrypt" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.encrypt">encrypt</h4>
+  <div class="markdown level1 summary"><p>Encrypt the savegame before writing it out to disk.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool encrypt</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_iterationsOfPBKDF2.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.iterationsOfPBKDF2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L99">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_iterationsOfPBKDF2" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.iterationsOfPBKDF2">iterationsOfPBKDF2</h4>
+  <div class="markdown level1 summary"><p>How many rounds of PBKDF2 should be applied to <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_key">key</a> in order to derive the AES key from it?<p> </p>
+Once decided, DO NOT CHANGE THIS value or you'll be unable to decrypt your data unless you save the used iteration count along with the data you're decrypting!</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int iterationsOfPBKDF2</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_key.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.key%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L77">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_key" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.key">key</h4>
+  <div class="markdown level1 summary"><p>Savegame encryption key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string key</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_loadingTimeoutSeconds.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.loadingTimeoutSeconds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L139">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_loadingTimeoutSeconds" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.loadingTimeoutSeconds">loadingTimeoutSeconds</h4>
+  <div class="markdown level1 summary"><p>After how many seconds of loading attempt should the procedure be aborted and considered a failure?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int loadingTimeoutSeconds</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_savegameFileExtension.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.savegameFileExtension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L125">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_savegameFileExtension" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.savegameFileExtension">savegameFileExtension</h4>
+  <div class="markdown level1 summary"><p>File extension to use for savegames.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string savegameFileExtension</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryName.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.savegamesDirectoryName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L119">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryName" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.savegamesDirectoryName">savegamesDirectoryName</h4>
+  <div class="markdown level1 summary"><p>This will be the name of the folder inside <code>Application.persistentDataPath</code> where all savegames will be saved to and loaded from.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string savegamesDirectoryName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryPath.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.savegamesDirectoryPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L184">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryPath" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.savegamesDirectoryPath">savegamesDirectoryPath</h4>
+  <div class="markdown level1 summary"><p>This is the full path to the directory that contains the savegames.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string savegamesDirectoryPath</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_savingTimeoutSeconds.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.savingTimeoutSeconds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L132">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_savingTimeoutSeconds" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.savingTimeoutSeconds">savingTimeoutSeconds</h4>
+  <div class="markdown level1 summary"><p>After how many seconds of saving should the procedure be aborted and considered a failure?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int savingTimeoutSeconds</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_TIME_FORMAT.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.TIME_FORMAT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L24">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_TIME_FORMAT" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.TIME_FORMAT">TIME_FORMAT</h4>
+  <div class="markdown level1 summary"><p>The <span class="xref">System.DateTime</span> format used for the savegame timestamps.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected const string TIME_FORMAT = &quot;yyyyMMddHHmmssff&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_CheckSavegamesDirectory.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.CheckSavegamesDirectory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L246">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_SavegameManager_CheckSavegamesDirectory_" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.CheckSavegamesDirectory*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_CheckSavegamesDirectory" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.CheckSavegamesDirectory">CheckSavegamesDirectory()</h4>
+  <div class="markdown level1 summary"><p>Checks if the savegames directory exists and creates one if not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool CheckSavegamesDirectory()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the savegame directory existed; false if it had to be created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_GetNewestSavegame.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.GetNewestSavegame%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L265">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_SavegameManager_GetNewestSavegame_" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.GetNewestSavegame*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_GetNewestSavegame" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.GetNewestSavegame">GetNewestSavegame()</h4>
+  <div class="markdown level1 summary"><p>Gets the newest, most recent savegame file name; without its extension and local to the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryPath">savegamesDirectoryPath</a>, such that it can be loaded seamlessly into a savegame manager's load function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string GetNewestSavegame()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_Load_System_String_.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.Load(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L171">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_SavegameManager_Load_" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.Load*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_Load_System_String_" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.Load(System.String)">Load(String)</h4>
+  <div class="markdown level1 summary"><p>Loads a savegame file from inside the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryPath">savegamesDirectoryPath</a>. <p> </p>
+The <code data-dev-comment-type="paramref" class="paramref">fileName</code> parameter is just the savegame's file name (local to the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryPath">savegamesDirectoryPath</a> and WITHOUT THE FILE EXTENSION).<p> </p>
+This will cause a chain reaction of method calls and procedures in order to make the loading procedure
+and map transition as smooth as possible.<p> </p>
+Check out the documentation of the implementing child classes to find out more about how it works (e.g. <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.html">XmlSavegameManager</a>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Load(string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The savegame's file name (WITHOUT ITS EXTENSION!). Path is local to the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryPath">savegamesDirectoryPath</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="GlitchedPolygons_SavegameFramework_SavegameManager_Load_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.html">XmlSavegameManager</a></div>
+      <div><a class="xref" href="GlitchedPolygons.SavegameFramework.Json.JsonSavegameManager.html">JsonSavegameManager</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_LoadNewestSavegame.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.LoadNewestSavegame%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L176">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_SavegameManager_LoadNewestSavegame_" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.LoadNewestSavegame*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_LoadNewestSavegame" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.LoadNewestSavegame">LoadNewestSavegame()</h4>
+  <div class="markdown level1 summary"><p>Loads the most recent savegame file automatically.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadNewestSavegame()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_OnLoad.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.OnLoad%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L197">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_SavegameManager_OnLoad_" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.OnLoad*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_OnLoad" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.OnLoad">OnLoad()</h4>
+  <div class="markdown level1 summary"><p>Invokes the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_Loaded">Loaded</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnLoad()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_OnLoadFailed.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.OnLoadFailed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L229">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_SavegameManager_OnLoadFailed_" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.OnLoadFailed*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_OnLoadFailed" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.OnLoadFailed">OnLoadFailed()</h4>
+  <div class="markdown level1 summary"><p>Invokes the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_LoadFailed">LoadFailed</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnLoadFailed()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_OnLoading.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.OnLoading%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L213">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_SavegameManager_OnLoading_" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.OnLoading*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_OnLoading" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.OnLoading">OnLoading()</h4>
+  <div class="markdown level1 summary"><p>Invokes the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_Loading">Loading</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnLoading()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_OnReady.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.OnReady%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L237">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_SavegameManager_OnReady_" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.OnReady*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_OnReady" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.OnReady">OnReady()</h4>
+  <div class="markdown level1 summary"><p>Invokes the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_Ready">Ready</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnReady()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_OnSave.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.OnSave%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L189">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_SavegameManager_OnSave_" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.OnSave*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_OnSave" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.OnSave">OnSave()</h4>
+  <div class="markdown level1 summary"><p>Invokes the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_Saved">Saved</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnSave()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_OnSaveFailed.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.OnSaveFailed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L221">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_SavegameManager_OnSaveFailed_" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.OnSaveFailed*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_OnSaveFailed" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.OnSaveFailed">OnSaveFailed()</h4>
+  <div class="markdown level1 summary"><p>Invokes the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_SaveFailed">SaveFailed</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnSaveFailed()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_OnSaving.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.OnSaving%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L205">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_SavegameManager_OnSaving_" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.OnSaving*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_OnSaving" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.OnSaving">OnSaving()</h4>
+  <div class="markdown level1 summary"><p>Invokes the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_Saving">Saving</a> event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnSaving()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_Save_System_String_.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.Save(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L159">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_SavegameManager_Save_" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.Save*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_Save_System_String_" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.Save(System.String)">Save(String)</h4>
+  <div class="markdown level1 summary"><p>Saves the game out to a time-stamped savegame file inside the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryPath">savegamesDirectoryPath</a> folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Save(string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The savegame's file name (WITHOUT EXTENSION!)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_Loaded.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.Loaded%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L54">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_Loaded" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.Loaded">Loaded</h4>
+  <div class="markdown level1 summary"><p>This event is raised when a savegame has been loaded (successfully!).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action Loaded</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_LoadFailed.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.LoadFailed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L59">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_LoadFailed" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.LoadFailed">LoadFailed</h4>
+  <div class="markdown level1 summary"><p>Raised if a loading procedure failed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action LoadFailed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_Loading.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.Loading%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L49">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_Loading" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.Loading">Loading</h4>
+  <div class="markdown level1 summary"><p>Raised when the player initiated a load procedure (started but not yet done; use this to show some UI label like a spinning disc or something to notify the user that loading is in progress).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action Loading</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_Ready.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.Ready%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L65">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_Ready" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.Ready">Ready</h4>
+  <div class="markdown level1 summary"><p>Raised whenever the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html">SavegameManager</a> instance is ready again after a saving or loading procedure finished successfully.<p> </p>
+Use this to e.g. reenable the UI buttons for saving/loading.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action Ready</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_Saved.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.Saved%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L39">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_Saved" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.Saved">Saved</h4>
+  <div class="markdown level1 summary"><p>This event is raised whenever the user saved the game (provided that the procedure was successful).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action Saved</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_SaveFailed.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.SaveFailed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L44">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_SaveFailed" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.SaveFailed">SaveFailed</h4>
+  <div class="markdown level1 summary"><p>Raised if a saving procedure failed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action SaveFailed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager_Saving.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager.Saving%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L34">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_SavegameManager_Saving" data-uid="GlitchedPolygons.SavegameFramework.SavegameManager.Saving">Saving</h4>
+  <div class="markdown level1 summary"><p>This event is raised whenever the user initiated a saving procedure
+(started but not yet done; use this to show some UI label like a spinning disc or something to notify the user that saving is in progress).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action Saving</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_SavegameManager.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.SavegameManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/SavegameManager.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

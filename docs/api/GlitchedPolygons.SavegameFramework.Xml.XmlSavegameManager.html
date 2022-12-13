@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class XmlSavegameManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class XmlSavegameManager
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager">
+  
+  
+  <h1 id="GlitchedPolygons_SavegameFramework_Xml_XmlSavegameManager" data-uid="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager" class="text-break">Class XmlSavegameManager
+  </h1>
+  <div class="markdown level0 summary"><p>The <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.html">XmlSavegameManager</a> is a component that should only ever exist once per scene.<p> </p>
+It provides functionality for saving/loading the game's state.<p> </p>
+The savegame's file format is xml that can be optionally compressed and/or encrypted.
+<remarks>When working in the editor with domain reloading disabled, you MUST ensure that the script execution order handles <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.html">XmlSavegameManager</a> BEFORE <a class="xref" href="GlitchedPolygons.SavegameFramework.SpawnedPrefab.html">SpawnedPrefab</a>!</remarks></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html">SavegameManager</a></div>
+    <div class="level2"><span class="xref">XmlSavegameManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_TIME_FORMAT">SavegameManager.TIME_FORMAT</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_Saving">SavegameManager.Saving</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_Saved">SavegameManager.Saved</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_SaveFailed">SavegameManager.SaveFailed</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_Loading">SavegameManager.Loading</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_Loaded">SavegameManager.Loaded</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_LoadFailed">SavegameManager.LoadFailed</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_Ready">SavegameManager.Ready</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_key">SavegameManager.key</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_encrypt">SavegameManager.encrypt</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_compress">SavegameManager.compress</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_iterationsOfPBKDF2">SavegameManager.iterationsOfPBKDF2</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_collectGarbageOnSave">SavegameManager.collectGarbageOnSave</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_collectGarbageOnLoad">SavegameManager.collectGarbageOnLoad</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryName">SavegameManager.savegamesDirectoryName</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_savegameFileExtension">SavegameManager.savegameFileExtension</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_savingTimeoutSeconds">SavegameManager.savingTimeoutSeconds</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_loadingTimeoutSeconds">SavegameManager.loadingTimeoutSeconds</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_batchSize">SavegameManager.batchSize</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_LoadNewestSavegame">SavegameManager.LoadNewestSavegame()</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryPath">SavegameManager.savegamesDirectoryPath</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_OnSave">SavegameManager.OnSave()</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_OnLoad">SavegameManager.OnLoad()</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_OnSaving">SavegameManager.OnSaving()</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_OnLoading">SavegameManager.OnLoading()</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_OnSaveFailed">SavegameManager.OnSaveFailed()</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_OnLoadFailed">SavegameManager.OnLoadFailed()</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_OnReady">SavegameManager.OnReady()</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_CheckSavegamesDirectory">SavegameManager.CheckSavegamesDirectory()</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_GetNewestSavegame">SavegameManager.GetNewestSavegame()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.html">GlitchedPolygons.SavegameFramework.Xml</a></h6>
+  <h6><strong>Assembly</strong>: UnityScriptsLibrary.dll</h6>
+  <h5 id="GlitchedPolygons_SavegameFramework_Xml_XmlSavegameManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class XmlSavegameManager : SavegameManager</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_Xml_XmlSavegameManager_GatherSaveableComponentsInScene.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.GatherSaveableComponentsInScene%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/Xml/XmlSavegameManager.cs/#L103">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_Xml_XmlSavegameManager_GatherSaveableComponentsInScene_" data-uid="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.GatherSaveableComponentsInScene*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_Xml_XmlSavegameManager_GatherSaveableComponentsInScene" data-uid="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.GatherSaveableComponentsInScene">GatherSaveableComponentsInScene()</h4>
+  <div class="markdown level1 summary"><p>Gathers all the <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html">XmlSaveableComponent</a>s in the scene and registers them to the <span class="xref">GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.saveableComponents</span> array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GatherSaveableComponentsInScene()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_Xml_XmlSavegameManager_Load_System_String_.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.Load(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/Xml/XmlSavegameManager.cs/#L319">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_Xml_XmlSavegameManager_Load_" data-uid="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.Load*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_Xml_XmlSavegameManager_Load_System_String_" data-uid="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.Load(System.String)">Load(String)</h4>
+  <div class="markdown level1 summary"><p>Loads a savegame file from inside the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryPath">savegamesDirectoryPath</a>. <p> </p>
+The <code data-dev-comment-type="paramref" class="paramref">fileName</code> parameter is just the savegame's file name (local to the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryPath">savegamesDirectoryPath</a> and WITHOUT THE FILE EXTENSION).<p> </p>
+This will cause a chain reaction of method calls and procedures in order to make the loading procedure
+and map transition as smooth as possible.<p> </p>
+The method registers <span class="xref">GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.OnNewSceneLoaded(Scene,LoadSceneMode)</span>
+to the <see cref="!:SceneManager.sceneLoaded"></see> event and then loads the savegame's stored scene. A scene transition is triggered.<p> </p>
+What happens next is that the <span class="xref">GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.OnNewSceneLoaded(Scene,LoadSceneMode)</span> method is fired in the NEW scene on the OLD <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.html">XmlSavegameManager</a> instance.<p> </p>
+That method then passes its <span class="xref">GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.transitorySavegame</span> document over to the new scene's <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.html">XmlSavegameManager</a>, and calls <span class="xref">GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.Reconstruct</span> on it. The old scene's <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.html">XmlSavegameManager</a> can now die safely.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Load(string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The savegame's file name (WITHOUT ITS EXTENSION!). Path is local to the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryPath">savegamesDirectoryPath</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_Load_System_String_">SavegameManager.Load(String)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_Xml_XmlSavegameManager_Save_System_String_.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.Save(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/Xml/XmlSavegameManager.cs/#L116">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_Xml_XmlSavegameManager_Save_" data-uid="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.Save*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_Xml_XmlSavegameManager_Save_System_String_" data-uid="GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager.Save(System.String)">Save(String)</h4>
+  <div class="markdown level1 summary"><p>Saves the game out to a time-stamped savegame file inside the <a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_savegamesDirectoryPath">savegamesDirectoryPath</a> folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Save(string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The savegame's file name (WITHOUT EXTENSION!)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GlitchedPolygons.SavegameFramework.SavegameManager.html#GlitchedPolygons_SavegameFramework_SavegameManager_Save_System_String_">SavegameManager.Save(String)</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_Xml_XmlSavegameManager.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.Xml.XmlSavegameManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/Xml/XmlSavegameManager.cs/#L22" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

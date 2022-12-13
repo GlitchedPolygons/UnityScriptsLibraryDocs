@@ -1,0 +1,391 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class XmlSaveableComponentExample
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class XmlSaveableComponentExample
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample">
+  
+  
+  <h1 id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample" data-uid="GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample" class="text-break">Class XmlSaveableComponentExample
+  </h1>
+  <div class="markdown level0 summary"><p>Example implementation of the <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html">XmlSaveableComponent</a> (for the xml savegame framework).</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="GlitchedPolygons.SavegameFramework.SaveableComponent.html">SaveableComponent</a></div>
+    <div class="level2"><a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html">XmlSaveableComponent</a></div>
+    <div class="level3"><span class="xref">XmlSaveableComponentExample</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html#GlitchedPolygons_SavegameFramework_Xml_XmlSaveableComponent_ID">XmlSaveableComponent.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html#GlitchedPolygons_SavegameFramework_Xml_XmlSaveableComponent_PrintID">XmlSaveableComponent.PrintID()</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html#GlitchedPolygons_SavegameFramework_Xml_XmlSaveableComponent_Awake">XmlSaveableComponent.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html#GlitchedPolygons_SavegameFramework_Xml_XmlSaveableComponent_OnDestroy">XmlSaveableComponent.OnDestroy()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.Examples.html">GlitchedPolygons.SavegameFramework.Xml.Examples</a></h6>
+  <h6><strong>Assembly</strong>: UnityScriptsLibrary.dll</h6>
+  <h5 id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class XmlSaveableComponentExample : XmlSaveableComponent</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_testBool.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.testBool%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/Xml/Examples/XmlSaveableComponentExample.cs/#L68">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_testBool" data-uid="GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.testBool">testBool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool testBool</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_testFloat.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.testFloat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/Xml/Examples/XmlSaveableComponentExample.cs/#L67">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_testFloat" data-uid="GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.testFloat">testFloat</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float testFloat</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_testInt.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.testInt%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/Xml/Examples/XmlSaveableComponentExample.cs/#L65">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_testInt" data-uid="GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.testInt">testInt</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int testInt</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_testString.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.testString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/Xml/Examples/XmlSaveableComponentExample.cs/#L66">View Source</a>
+  </span>
+  <h4 id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_testString" data-uid="GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.testString">testString</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string testString</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_AfterLoading.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.AfterLoading%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/Xml/Examples/XmlSaveableComponentExample.cs/#L172">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_AfterLoading_" data-uid="GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.AfterLoading*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_AfterLoading" data-uid="GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.AfterLoading">AfterLoading()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void AfterLoading()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html#GlitchedPolygons_SavegameFramework_Xml_XmlSaveableComponent_AfterLoading">XmlSaveableComponent.AfterLoading()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_BeforeSaving.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.BeforeSaving%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/Xml/Examples/XmlSaveableComponentExample.cs/#L161">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_BeforeSaving_" data-uid="GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.BeforeSaving*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_BeforeSaving" data-uid="GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.BeforeSaving">BeforeSaving()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void BeforeSaving()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html#GlitchedPolygons_SavegameFramework_Xml_XmlSaveableComponent_BeforeSaving">XmlSaveableComponent.BeforeSaving()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_GetXml.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.GetXml%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/Xml/Examples/XmlSaveableComponentExample.cs/#L85">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_GetXml_" data-uid="GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.GetXml*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_GetXml" data-uid="GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.GetXml">GetXml()</h4>
+  <div class="markdown level1 summary"><p>Gets the nicely formatted xml <code><span class="xref">System.Xml.Linq.XElement</span></code> containing all the data that is needed to reconstruct the saveable object through <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html#GlitchedPolygons_SavegameFramework_Xml_XmlSaveableComponent_LoadXml_System_Xml_Linq_XElement_">LoadXml(XElement)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override XElement GetXml()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.Linq.XElement</span></td>
+        <td><p>The <code><span class="xref">System.Xml.Linq.XElement</span></code> containing all data needed to reconstruct the object on <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html#GlitchedPolygons_SavegameFramework_Xml_XmlSaveableComponent_LoadXml_System_Xml_Linq_XElement_">LoadXml(XElement)</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html#GlitchedPolygons_SavegameFramework_Xml_XmlSaveableComponent_GetXml">XmlSaveableComponent.GetXml()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_LoadXml_System_Xml_Linq_XElement_.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.LoadXml(System.Xml.Linq.XElement)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/Xml/Examples/XmlSaveableComponentExample.cs/#L103">View Source</a>
+  </span>
+  <a id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_LoadXml_" data-uid="GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.LoadXml*"></a>
+  <h4 id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_LoadXml_System_Xml_Linq_XElement_" data-uid="GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample.LoadXml(System.Xml.Linq.XElement)">LoadXml(XElement)</h4>
+  <div class="markdown level1 summary"><p>Loads an <code><span class="xref">System.Xml.Linq.XElement</span></code> (hopefully the one that was originally produced by  the <a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html#GlitchedPolygons_SavegameFramework_Xml_XmlSaveableComponent_GetXml">GetXml()</a> method) into the class.<p> </p>
+This method should reconstruct the object's state on load, and then return <code>true</code> if the procedure was successful (<code>false</code> if it failed in some way).<p> </p></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool LoadXml(XElement xElement)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.Linq.XElement</span></td>
+        <td><span class="parametername">xElement</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Should return <code>true</code> if the loading procedure was successful; <code>false</code> if it failed in some way.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GlitchedPolygons.SavegameFramework.Xml.XmlSaveableComponent.html#GlitchedPolygons_SavegameFramework_Xml_XmlSaveableComponent_LoadXml_System_Xml_Linq_XElement_">XmlSaveableComponent.LoadXml(XElement)</a></div>
+  <h5 id="GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample_LoadXml_System_Xml_Linq_XElement__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This should NOT be used to make the <a class="xref" href="GlitchedPolygons.SavegameFramework.SaveableComponent.html">SaveableComponent</a> use the loaded data in any way: THIS IS JUST FOR LOADING DATA INTO THE CLASS FIELDS! Instead, use the <a class="xref" href="GlitchedPolygons.SavegameFramework.SaveableComponent.html#GlitchedPolygons_SavegameFramework_SaveableComponent_AfterLoading">AfterLoading()</a> method for applying the loaded data (e.g. setting <code>Transform</code> positions and rotations and whatnot)!</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/new/master/apiSpec/new?filename=GlitchedPolygons_SavegameFramework_Xml_Examples_XmlSaveableComponentExample.md&amp;value=---%0Auid%3A%20GlitchedPolygons.SavegameFramework.Xml.Examples.XmlSaveableComponentExample%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/GlitchedPolygons/UnityScriptsLibrary/blob/master/Runtime/Savegames/Xml/Examples/XmlSaveableComponentExample.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

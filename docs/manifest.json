@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Damage.Damage.html",
-          "hash": "InuJqSkVUa3RACdHSRmodgF1sIkoHjbLaljL9pf9R18="
+          "hash": "4Bq+XOKQgsQibVTE/W4x9f3xZo23MuiCSKM3/1Aw1Zc="
         }
       },
       "is_incremental": false,
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Damage.DamageType.html",
-          "hash": "cD5+hni4XjpKgovs0Ds153Da4c6pQ7ztcN3y00YPSL0="
+          "hash": "9XN/zJfDYGlktdKCEaqWb7s0+9zwn+Z8nJhebhrLxMs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Damage.Damageable.html",
-          "hash": "EuKVTqrOtycr6ElH4zwaJYvENot9IDco4RRBtt9D7Y4="
+          "hash": "UbNzcwQTD9/nV3YftCTSFbHnwxX1PZaa797Ja7lbzCg="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Debugging.DebugLogger.html",
-          "hash": "SJbCg70f4o5ypSq2UhQX/pEkPpa7cxRVCoHVrlFEJbs="
+          "hash": "oyts0FGmvqACA9tgttn/cUL8uCBt+Cdzfh8SKZ9e8vw="
         }
       },
       "is_incremental": false,
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.ArrayExtensions.html",
-          "hash": "qGo+rNcBIldqfLi9QHDT0rq1yl0yDW4Fi7o++QOFSPQ="
+          "hash": "XvvyfQXImJFQmLp3o2KJwx+/BAKMmcTF+IbmBGnIxQM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.html",
-          "hash": "06lfOcphlG7Caa4Uq3N2JWbbQf+Ml28Tmf0wj+ZXAGI="
+          "hash": "iSBIXDeakNXKKn3GgOg778/f0PReLyvmOIgr5hdXTPk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html",
-          "hash": "NQG8FLYXJnonJ/lf20JXecmWyG5P7+BkIQ/zLlSsn9Q="
+          "hash": "o0BxX76DzCkfSiNty/M0XnlhttPKbx8m5+zY+GjzOz8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html",
-          "hash": "5DUj5+Hr1iQPJDRPiU7XYLVKICsD8fICa/JGj9iTNFs="
+          "hash": "7M6gHrpVVjjdwaIb78X5MicX3HTz9uDPUsOqo7wYo1A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.html",
-          "hash": "eLeqoRIarJGEfZVfOXQ8UiaFa+9ZvJjso0L69ufuVXQ="
+          "hash": "ouzLpVyBhfQ46MS72vW/0NWNxm4Glxt+giEvrGEqUuQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.EventTriggerExtensions.html",
-          "hash": "mgmE664OZxSW2VFsHAwppwRrNxR4dQgKSPi12VMi0bU="
+          "hash": "R0bEOpUDsKw5bAB+0ULhiVHC/lXh25U3SiEXVQAkOAY="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.GameObjectExtensions.html",
-          "hash": "U5IDVjFGs0eV1Yk+P+ur+wNj4WZ2bZMp+OSnw45vIyc="
+          "hash": "0e/0dCXFdDQU3AHtHIrTpNThRmVqXEbUaTJvSPjTL90="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.GetOrAddComponentExtension.html",
-          "hash": "/6Q/PZwM3esSNrmbWUIRIRvHgZzyYGsgfgA7UDW8XEE="
+          "hash": "MkfCbZlw0LnqYtws9slRxtngMY4TfCOWAFk74f3XVVQ="
         }
       },
       "is_incremental": false,
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html",
-          "hash": "X3x3gYm9N+xsYS5XxNcq+tHsElTbNo359dQj2H9jh/s="
+          "hash": "KxXyD8AtiPvq+ju260WfR4+nDssWns3LPMfj9TbQJXY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.Int64Extensions.html",
-          "hash": "i2t7nWEYPlrHRHaYHk82miaejX0rYBM8Be43PAy7KMI="
+          "hash": "pObIsya45JjvXQ20/gjWxipTp8O+l5iJYPk3AucbAak="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.LayerMaskExtensions.html",
-          "hash": "FI+vZEXPIpQBYqB7fXcVIuVa4t/g5Q57hDQLt/1DQzw="
+          "hash": "S3YL0SK1qhHhmiUR8htnG6PO8apYP5HYANW1f8KE8aE="
         }
       },
       "is_incremental": false,
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.RSAParametersExtensions.html",
-          "hash": "Q91bncIQZgjG3R/1Pb9RVA0rkYzQXEqREZD0f0AAmhY="
+          "hash": "wubf1Xf7Z8d4cki8GHTGfj69cK8RxS3BB1RbQqcFqj8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.RaycastHitExtensions.html",
-          "hash": "vzhRJU+pcYwXi/fsn7IJxC7QSKhp7IxscL/PiLUoxv0="
+          "hash": "eD2mcx6INsxcWrsLnCqnHJeN9N7vLxiWp5SvikmKnpw="
         }
       },
       "is_incremental": false,
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.StringBuilderExtensions.html",
-          "hash": "jkaWN0riL4MJkSCxUceWZGwChig/Wl84/huTTQn6dng="
+          "hash": "Ek6h9QGfYllBC710f6ftJc7qxhMhqG7hzIkCym8tNus="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -249,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.StringExtensions.html",
-          "hash": "HvGgzy0IA4DRYRwIrsjCTN2aJdVyd22F7SqZAs1roIQ="
+          "hash": "g8He4DrLGX+BmpuNPQuCPh97zcEAhKpY9HF447BebUU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.Vector2Extensions.html",
-          "hash": "Hbo5YhQN+gQmXPhaSlwo0rhmJUVWW/6iEokal8lw07s="
+          "hash": "xWBCKPPfYhSd6qpyu3WMR1ini3ZmwLqhXSKR79n1tFw="
         }
       },
       "is_incremental": false,
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.GlitchEd25519.GlitchEd25519.html",
-          "hash": "o+RP8phq3TeCxdAqjMHzCQQrUlxJ305ww4hOT0CsD2A="
+          "hash": "Xs1yqyNRZtKVozWWr5oAhkyLwbiV9MAsl5jI/pX0iAo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_cached.html",
-          "hash": "G6Bz0chkgaBTz23h2/ZzxoprdQQDVgW2YZwQDMrfrxA="
+          "hash": "HVyI9i4jY3YtvZJ+2x5euY/b0n07XWXWOMgafcsLwTM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -309,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_p1p1.html",
-          "hash": "DOUYFErJeOmrCKEWYw6Ym1BxlFkgUKzN4A4fkfsZ59E="
+          "hash": "yUpIUao1jKu9ogcGtNkRCJ8k+fOn4KrEzA1qX18JCso="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_p2.html",
-          "hash": "zJl6bmFqeOIk+uIpqN0I7wzleFhe2Q5usfzGgYCmBbM="
+          "hash": "5nzZijz34Jbg2+XcxLbvdH21ezjUtdwjA+IYHTjk0NM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -333,10 +333,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_p3.html",
-          "hash": "vYL85si8bvMPdGCgqKu85ZaSJxjKBcIoxLRMGGHNmK4="
+          "hash": "kAbtc3o3mMKmwR5OCxwS0/eQgCFztW56fdwxSo5NkgI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -345,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.GlitchEd25519.ge_precomp.html",
-          "hash": "Yx6SCVJ/IPi0i6yFqHPjNwslmQoiKAm+dfZYsxrfY7E="
+          "hash": "0LwrigdOIh8k2Nu80nESLlWMmWDOZsd5S6elCOPTHyc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -360,7 +360,7 @@
           "hash": "yvhnnEgV7nBxS+YNOP3c8OMJ/PFPKHa4GY0ouzNwdUs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -369,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Identification.GUID.html",
-          "hash": "DgUdpuoPRzUCyqjhVeiIDCr/hqio39fBISK9RHO/Cc0="
+          "hash": "zuP6VJZ4QmjwLfRGuAm7zNfv8EqeuLuUTcrEz58ajrI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -381,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Identification.GUIDEditor.html",
-          "hash": "Oe/Lwcw7UVFu6hNWaautGDqVbaX75dnVkn+SYB2Bneo="
+          "hash": "uq3Lne3WaIxJu3Lsuhrohq5Ru3LiRNWNrRQxuQkOEm8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -393,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Identification.ID.html",
-          "hash": "mo9jszdcj0jx6s4qxJpjjeaejpxqyEkjc+4bf7aXHTY="
+          "hash": "gDxukH7ALIXAvcLNTZQnCpDD5hyDxNS9UVCm6hNZ6dU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -405,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Identification.IDEditor.html",
-          "hash": "fp6kcyaF5vGLgjw9HJfj/vdIX7Ltl9p/5hAOdvmEQXE="
+          "hash": "B/9cAO5hag5sLuIS3dHLVIH6Z6ePbgnM+JTpsRxWmEk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -420,7 +420,7 @@
           "hash": "iGwO5v5FsicA0VS9JN7JleT7Nnqhb6H+q58UIhqhS7Q="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -429,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.Examples.XInputTestCS.html",
-          "hash": "8j4kXT/u6l9ctd/wI/cPtWb6LgKqmzJKObjkyPm2ODI="
+          "hash": "BQiM8I/iTxe2J1dmcHPCQazss7Iuoulk+emIQZLjdzI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -444,7 +444,7 @@
           "hash": "WmVpgfaCyhUTkubLtuwPbCs2STAfXOCbbPHyfGLwHKM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.InputDevice.html",
-          "hash": "J4xP68MJx/3qG0865H4+nOJDW/3E4pUcul8TpiKupgA="
+          "hash": "HuZ9DXsAWc6wP94lbdm+39FpyYp610j4+y5tCugxyas="
         }
       },
       "is_incremental": false,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.InputMixer.html",
-          "hash": "nQ4PW9U2wnYPz13tIZzZ7GyJG9Ca7hYqY39Z7gsj9/o="
+          "hash": "8DnvQn2kFRaC6vHsLNuP1Vlrt9C0Q/Zo2Ms2snewV9U="
         }
       },
       "is_incremental": false,
@@ -477,10 +477,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.KeyboardAndMouse.Axis.html",
-          "hash": "kCN4Pb9QDXlfI25j5pGcPUZoKmQ7j9wtSaWVTPStnFY="
+          "hash": "EmIpWC/ML+YuQE2UtCvfPKGZplODNRh85gzjsw5Uv0s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.KeyboardAndMouse.html",
-          "hash": "ECMr0znuoR28+SImSAkqEQRmdYQ6/4TU+81Ciff+za4="
+          "hash": "X6a7hBVeVhaamn2vUdRJ0HR8e9JeidUiw+qC5ryD6B4="
         }
       },
       "is_incremental": false,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.Touchscreen.html",
-          "hash": "Da7uh9JooyxZi117EKYOnWmX6IVLqh7CYetaNkcPHvM="
+          "hash": "cGCaL56dyOEG35v/yudxFq6ov+//rUCsI3RHPpTGdKU="
         }
       },
       "is_incremental": false,
@@ -513,10 +513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.XInput.html",
-          "hash": "j3U/COyGdvuTQUYi6hwxjeHjGwqGvBCJVWr1Y7KJ+MM="
+          "hash": "EJpvt6cTOAN9R9IVzbQjYhNPHzkfeYcZ0PufP9ECWds="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -525,10 +525,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.XboxControllerAxis.html",
-          "hash": "oGCmEnVPNgXGP0z5z98U3Hl9L7k0tvWRa7/+F1d7H54="
+          "hash": "kz9bldXvzt7iLtZoU+DFVkvuxQ1FGRuh09AmfySvgPY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -537,10 +537,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Input.XboxControllerButton.html",
-          "hash": "Qg3O7RyEOg9tLveoa+waRZ+H5iW++W1MAwtZBplNGZ0="
+          "hash": "6Z1FZFrS6v7tlK2O2VXbWwgiOjaNVuwPnb/ZAT38YV0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Lifetime.html",
-          "hash": "K/utayvkdUdS4zHSki48kMSDqrwKvz7Md7V7t0DqUhQ="
+          "hash": "9oorMOlF5e03an8UGA83udzATfRH6IqrFm4ShrZA3o0="
         }
       },
       "is_incremental": false,
@@ -573,10 +573,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Logic.Counter.html",
-          "hash": "Ncj1DfrWsF4uRwg6FiFf2BnAPDVF+35GjnwBG9TirrY="
+          "hash": "0cFfqEKenKVyX2V8SAYn8XOBrvDfkacqGijoVQEXd20="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -585,10 +585,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Logic.Relay.html",
-          "hash": "oPJhuV6r6D3cTel9jIB34NAZjsi3kox5y4zEY3r0Gxw="
+          "hash": "DBs+K/eSIRQegGyesdgNYpIz8ZofvMESb6tCbE9EpuI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -600,7 +600,7 @@
           "hash": "ym8bnOfqK3FbUfL6WDjDM03pzAGGecucXo6S/83zTyw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.TriggerVolumes.TriggerVolume.html",
-          "hash": "xcdXxZHQGmmhX0JZrx7CiZ7auVi6etP9BH32KUdzDxo="
+          "hash": "rYy6i+CpCyAxKXsMMeg7CyzZjMCzaFduYD+zhO82lW8="
         }
       },
       "is_incremental": false,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.Colors.html",
-          "hash": "gZY3SdrNkeA8jWd6cJc5Aa13cMQ2x1XQJIJguF612DQ="
+          "hash": "Vo5YhE19ecpmUOZWRlkErF7DxGwnm2kB5+6kmedtm+w="
         }
       },
       "is_incremental": false,
@@ -645,10 +645,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.Cursor.html",
-          "hash": "pc3PBBeedDhko02z1ndp3EE9ZAspcKnHK+XO/05aiZY="
+          "hash": "y29lGxDss3VMmlYZ2wcTUtfOnrfWyOkuLnLlHqOyFz0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -657,10 +657,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.GUIDGenerator.html",
-          "hash": "E/3aBEThkjbGIMpaCHBETWArLX+ehYe60LDZFqWGK9E="
+          "hash": "vcDwiRO5JG00vTBeTDEdojoLBVNN/vBTydP/e536x/4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -669,10 +669,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.GZip.html",
-          "hash": "3lplcVmeQHZnpisQ1JMPFEPi8t0t/sPFoXOby9NrkfM="
+          "hash": "9PhSIo+0K9CF5dvH4k4X7Iybh4FuEIZ7JSpYrVNXBUM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.SaveCombinedMesh.html",
-          "hash": "M4bbwt4Cul62WhS6bnCAB+eJPThEWVf6LlRsUbx+HRA="
+          "hash": "zLLit4iXdl73WgxxsAINQE8lxUeGCTwTWGuIlMOzRjg="
         }
       },
       "is_incremental": false,
@@ -693,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.ScreenshotManager.html",
-          "hash": "Ezqc0y8jkrUs9XlGc7IuQMaZimZYUGXWOPuXnXAZOPI="
+          "hash": "Zq3cTSILFIL6KVDnWiFIGsAf8hqfPW6DU0ooHDg9zUY="
         }
       },
       "is_incremental": false,
@@ -705,10 +705,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.SelectStaticGameObjects.html",
-          "hash": "vJc3cuIObifB72TzOr5atDCPsGHFGQA77spZ7s4b7y4="
+          "hash": "d2V/Cgu444EOsKNT1uHMjSyxn1cQxZBlj5xozlcH7S8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -717,10 +717,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.SfxUtility.html",
-          "hash": "s6H2uYICVEhoB3ef/A7rl84NDQz9H7MsSEoDnebwZKM="
+          "hash": "cwrwo2p5OD6pgIltw8ObIeTG7xsCSsdr0gPwx3X/K3g="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -729,10 +729,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.SymmetricCryptography.html",
-          "hash": "72yjBjVNA7i56xMgmPYmVrfGUMGLM4PKKEk9zWajaGI="
+          "hash": "vWM5VGBXOL2DWWmDxCvbm9updSkfhJqWA3UaSZy7AZE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -741,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.Utilities.YieldInstructions.html",
-          "hash": "SPKXtZEqNAQcGLsmn8ZefKxJ6ALSsOuv3UGRGz+qlh4="
+          "hash": "tzSbM9UlJjzySmNb+jWpOhqQ0ZjCorNOG8xA/NhV07k="
         }
       },
       "is_incremental": false,
@@ -842,7 +842,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 64,
-          "skipped_file_count": 48
+          "skipped_file_count": 11
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
